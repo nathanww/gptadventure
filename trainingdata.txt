@@ -1,0 +1,4324 @@
+
+everything you've ever wanted to know about adventure!
+a quick introduction to the game...
+
+host% /usr/games/adventure
+
+welcome to adventure!! would you like instructions?
+yes
+
+somewhere nearby is colossal cave, where others have found fortunes in treasure and gold, though it is rumored that some who enter are never seen again. magic is said to work in the cave. i will be your eyes and hands. direct me with commands of 1 or 2 words. i should warn you that i look at only the first five letters of each word, so you'll have to enter "northeast" as "ne" to distinguish it from "north". should you get stuck, type "help" for some general hints. for information on how to end your adventure, etc., type "info".
+
+
+this program was originally developed by will crowther. most of the features of the current program were added by don woods. address complaints about the unix version to jim gillogly jim@rand.org
+.
+
+you are standing at the end of a road before a small brick building. around you is a forest. a small stream flows out of the building and down a gully.
+
+enter
+you are inside a building, a well house for a large spring. there are some keys on the ground here. there is a shiny brass lamp nearby. there is food here. there is a bottle of water here.
+
+get keys
+ok
+
+get lamp
+ok
+
+exit
+you're at end of road again.
+
+south
+you are in a valley in the forest beside a stream tumbling along a rocky bed.
+
+south
+at your feet all the water of the stream splashes into a 2-inch slit in the rock. downstream the streambed is bare rock.
+
+south
+you are in a 20-foot depression floored with bare dirt. set into the dirt is a strong steel grate mounted in concrete. a dry streambed leads into the depression. the grate is locked.
+
+open grate
+the grate is now unlocked.
+
+down
+you are in a small chamber beneath a 3x3 steel grate to the surface. a low crawl over cobbles leads inward to the west. the grate is open.
+
+west
+you are crawling over cobbles in a low passage. there is a dim light at the east end of the passage. there is a small wicker cage discarded nearby.
+
+west
+it is now pitch dark. if you proceed you will likely fall into a pit.
+
+lamp on
+your lamp is now on. you are in a debris room filled with stuff washed in from the surface. a low wide passage with cobbles becomes plugged with mud and debris here, but an awkward canyon leads upward and west. a note on the wall says "magic word xyzzy". a three foot black rod with a rusty star on an end lies nearby.
+
+xyzzy
+you're inside building. you're inside building. there is food here. there is a bottle of water here.
+
+quit
+do you really want to quit now?
+yes
+ok
+you scored 27 out of a possible 350 using 14 turns. you are obviously a rank amateur. better luck next time. to achieve the next higher rating, you need 9 more points.
+okay, you get the idea...
+
+in order to win the game, you cannot ask for instructions, nor can you enter the cave by the riverbed and opening the grate. the next round will be a complete game, played until the win. it will also be annotated. anything in regular text is what the computer prints out. anything italicized is what i have typed. anything in bold is an annotation. i could have put one annotation in the introduction game... in order to open the grate, you must have the keys with you. otherwise you will not be able to unlock the grate.
+a complete game, annotated
+
+host% /usr/games/adventure
+
+welcome to adventure!! would you like instructions?
+no
+
+you are standing at the end of a road before a small brick building. around you is a forest. a small stream flows out of the building and down a gully.
+
+in
+you are inside a building, a well house for a large spring. there are some keys on the ground here. there is a shiny brass lamp nearby. there is food here. there is a bottle of water here.
+
+get lamp
+ok
+
+we're going straight to the cave with the magic word "xyzzy" that we learned in the intro game. i will not turn on the lamp until we're in the cave to save a little bit of lamp energy. the lamp is a limited resource.
+
+xyzzy
+it is now pitch dark. if you proceed you will likely fall into a pit.
+
+lamp on
+your lamp is now on. you are in a debris room filled with stuff washed in from the surface. a low wide passage with cobbles becomes plugged with mud and debris here, but an awkward canyon leads upward and west. a note on the wall says "magic word xyzzy". a three foot black rod with a rusty star on an end lies nearby.
+
+east
+you are crawling over cobbles in a low passage. there is a dim light at the east end of the passage. there is a small wicker cage discarded nearby.
+
+get cage
+ok
+
+west
+you're in debris room. a three foot black rod with a rusty star on an end lies nearby.
+
+get rod
+ok
+
+west
+you are in an awkward sloping east/west canyon.
+
+west
+you are in a splendid chamber thirty feet high. the walls are frozen rivers of orange stone. an awkward canyon and a good passage exit from east and west sides of the chamber. a cheerful little bird is sitting here singing.
+
+the bird is scared by the rod. you must drop the rod in order to get the bird. otherwise, the bird will fly away.
+
+drop rod
+ok
+
+get bird
+ok
+
+get rod
+ok
+
+west
+at your feet is a small pit breathing traces of white mist. an east passage ends here except for a small crack leading on. rough stone steps lead down the pit.
+
+down
+you are at one end of a vast hall stretching forward out of sight to the west. there are openings to either side. nearby, a wide stone staircase leads downward. the hall is filled with wisps of white mist swaying to and fro almost as if alive. a cold wind blows up the staircase. there is a passage at the top of a dome behind you. rough stone steps lead up the dome.
+
+west
+you are on the east bank of a fissure slicing clear across the hall. the mist is quite thick here, and the fissure is too wide to jump.
+
+wave rod
+a crystal bridge now spans the fissure.
+
+drop rod
+ok
+
+west
+you are on the west side of the fissure in the hall of mists. there are diamonds here! a crystal bridge now spans the fissure.
+
+if there is an exclamation point, then it is a treasure.
+
+get diamonds
+ok
+
+east
+you're on east bank of fissure. a three foot black rod with a rusty star on an end lies nearby. a crystal bridge now spans the fissure.
+
+east
+you're in hall of mists. rough stone steps lead up the dome.
+
+south
+this is a low room with a crude note on the wall. the note says, "you won't get it up the steps". there is a large sparkling nugget of gold here!
+
+you will not be able to take the gold up the stairs in the dome. there is another way out of the cave, which you will see later.
+
+get gold
+ok
+
+north
+you're in hall of mists.
+
+down
+a little dwarf just walked around a corner, saw you, threw a little axe at you which missed
+, cursed, and ran away. you are in the hall of the mountain king, with passages off in all directions. there is a little axe here. a huge green fierce snake bars the way!
+
+i made a grave error here. i did not pick up the axe. i was lucky that the next time the dwarf appeared was in this room, so i could get the axe at that time and fight back. otherwise, i would have likely been killed by the dwarf.
+
+drop bird
+the little bird attacks the green snake, and in an astounding flurry drives the snake away.
+
+drop cage
+ok
+
+south
+you are in the south side chamber. there is precious jewelry here!
+
+get jewelry
+ok
+
+north
+there is a threatening little dwarf in the room with you! you're in hall of mt king. there is a small wicker cage discarded nearby. a cheerful little bird is sitting here singing. there is a little axe here.
+
+get axe
+ok
+
+throw axe
+you killed a little dwarf. the body vanishes in a cloud of greasy black smoke. you're in hall of mt king. there is a little axe here. there is a small wicker cage discarded nearby. a cheerful little bird is sitting here singing.
+
+get axe
+ok
+
+west
+you are in the west side chamber of the hall of the mountain king. a passage continues west and up here. there are many coins here!
+
+get coins
+ok
+
+east
+you're in hall of mt king. there is a small wicker cage discarded nearby. a cheerful little bird is sitting here singing.
+
+north
+you are in a low n/s passage at a hole in the floor. the hole goes down to an e/w passage. there are bars of silver here!
+
+get silver
+ok
+
+north
+you are in a large room, with a passage to the south, a passage to the west, and a wall of broken rock to the east. there is a large "y2" on a rock in the room's center.
+
+normally, the text will say something about a hollow voice saying the word "plugh." i don't know why it didn't say it this time. "plugh" is another magic word.
+
+plugh
+you're inside building. there are some keys on the ground here. there is food here. there is a bottle of water here.
+
+drop diamonds
+ok
+
+drop gold
+ok
+
+drop jewelry
+ok
+
+drop coins
+ok
+
+drop silver
+ok
+
+get food
+ok
+
+get water
+ok
+
+get keys
+ok
+
+plugh
+you're at "y2".
+
+south
+there is a threatening little dwarf in the room with you! one sharp nasty knife is thrown at you! it misses! you are in a low n/s passage at a hole in the floor. the hole goes down to an e/w passage.
+
+once again, i made the mistake of not noticing a dwarf. i was lucky i didn't get killed before i noticed and fought back.
+
+down
+there is a threatening little dwarf in the room with you! you are in a dirty broken passage. to the east is a crawl. to the west is a large passage. above you is a hole to another passage.
+
+west
+there is a threatening little dwarf in the room with you! you are in a large room full of dusty rocks. there is a big hole in the floor. there are cracks everywhere, and a passage leading east.
+
+down
+there is a threatening little dwarf in the room with you! you are at a complex junction. a low hands and knees passage from the north joins a higher crawl from the east to make a walking passage going west. there is also a large room above. the air is damp here.
+
+west
+there is a threatening little dwarf in the room with you! you are in bedquilt, a long east/west passage with holes everywhere. to explore at random select north, south, up, or down.
+
+throw axe
+you attack a little dwarf, but he dodges out of the way. there is a threatening little dwarf in the room with you! one sharp nasty knife is thrown at you! it misses! you are in bedquilt, a long east/west passage with holes everywhere. to explore at random select north, south, up, or down. there is a little axe here.
+
+get axe
+ok
+
+throw axe
+you attack a little dwarf, but he dodges out of the way. there is a threatening little dwarf in the room with you! one sharp nasty knife is thrown at you! it misses! you are in bedquilt, a long east/west passage with holes everywhere. to explore at random select north, south, up, or down. there is a little axe here.
+
+get axe
+ok
+
+throw axe
+you killed a little dwarf. you are in bedquilt, a long east/west passage with holes everywhere. to explore at random select north, south, up, or down. there is a little axe here.
+
+get axe
+ok
+
+west
+you are in a room whose walls resemble swiss cheese. obvious passages go west, east, ne, and nw. part of the room is occupied by a large bedrock block.
+
+west
+you are at the east end of the twopit room. the floor here is littered with thin rock slabs, which make it easy to descend the pits. there is a path here bypassing the pits to connect passages from east and west. there are holes all over, but the only big one is on the wall directly over the west pit where you can't get to it.
+
+west
+you are at the west end of the twopit room. there is a large hole in the wall above the pit at this end of the room.
+
+down
+you are at the bottom of the western pit in the twopit room. there is a large hole in the wall about 25 feet above you. there is a tiny little plant in the pit, murmuring "water, water, ..."
+
+water plant
+the plant spurts into furious growth for a few seconds. you're in west pit. there is a 12-foot-tall beanstalk stretching up out of the pit, bellowing "water!! water!!"
+
+up
+you're at west end of twopit room. the top of a 12-foot-tall beanstalk is poking out of the west pit.
+
+east
+there is a threatening little dwarf in the room with you! one sharp nasty knife is thrown at you! it misses! you're at east end of twopit room. the top of a 12-foot-tall beanstalk is poking out of the west pit.
+
+throw axe
+you attack a little dwarf, but he dodges out of the way. there is a threatening little dwarf in the room with you! one sharp nasty knife is thrown at you! it misses! you're at east end of twopit room. there is a little axe here. the top of a 12-foot-tall beanstalk is poking out of the west pit.
+
+get axe
+ok
+
+throw axe
+you attack a little dwarf, but he dodges out of the way. there is a threatening little dwarf in the room with you! one sharp nasty knife is thrown at you! it misses! you're at east end of twopit room. there is a little axe here. the top of a 12-foot-tall beanstalk is poking out of the west pit.
+
+get axe
+ok
+
+throw axe
+you attack a little dwarf, but he dodges out of the way. there is a threatening little dwarf in the room with you! one sharp nasty knife is thrown at you! it misses! you're at east end of twopit room. there is a little axe here. the top of a 12-foot-tall beanstalk is poking out of the west pit.
+
+get axe
+ok
+
+throw axe
+you killed a little dwarf. you are at the east end of the twopit room. the floor here is littered with thin rock slabs, which make it easy to descend the pits. there is a path here bypassing the pits to connect passages from east and west. there are holes all over, but the only big one is on the wall directly over the west pit where you can't get to it. there is a little axe here. the top of a 12-foot-tall beanstalk is poking out of the west pit.
+
+get axe
+ok
+
+east
+you're in swiss cheese room.
+
+ne
+you are in bedquilt, a long east/west passage with holes everywhere. to explore at random select north, south, up, or down.
+
+east
+you're at complex junction.
+
+up
+you're in dusty rock room.
+
+east
+you're in dirty passage.
+
+east
+you are on the brink of a small clean climbable pit. a crawl leads west.
+
+down
+you are in the bottom of a small pit with a little stream, which enters and exits through tiny slits.
+
+get water
+your bottle is now full of water.
+
+up
+you are on the brink of a small clean climbable pit. a crawl leads west.
+
+west
+you're in dirty passage.
+
+west
+you're in dusty rock room.
+
+down
+you're at complex junction.
+
+west
+you are in bedquilt, a long east/west passage with holes everywhere. to explore at random select north, south, up, or down.
+
+west
+you're in swiss cheese room.
+
+west
+you're at east end of twopit room. the top of a 12-foot-tall beanstalk is poking out of the west pit.
+
+west
+you're at west end of twopit room. the top of a 12-foot-tall beanstalk is poking out of the west pit.
+
+down
+you're in west pit. there is a 12-foot-tall beanstalk stretching up out of the pit, bellowing "water!! water!!"
+
+water plant
+the plant grows explosively, almost filling the bottom of the pit. you're in west pit. there is a gigantic beanstalk stretching all the way up to the hole.
+
+up
+you're at west end of twopit room. there is a huge beanstalk growing out of the west pit up to the hole.
+
+east
+you're at east end of twopit room. there is a huge beanstalk growing out of the west pit up to the hole.
+
+down
+you are at the bottom of the eastern pit in the twopit room. there is a small pool of oil in one corner of the pit.
+
+get oil
+your bottle is now full of oil.
+
+up
+you're at east end of twopit room. there is a huge beanstalk growing out of the west pit up to the hole.
+
+west
+you're at west end of twopit room. there is a huge beanstalk growing out of the west pit up to the hole.
+
+down
+you're in west pit. there is a gigantic beanstalk stretching all the way up to the hole.
+
+climb
+you clamber up the plant and scurry through the hole at the top. you are in a long, narrow corridor stretching out of sight to the west. at the eastern end is a hole through which you can see a profusion of leaves.
+
+west
+you are in the giant room. the ceiling here is too high up for your lamp to show it. cavernous passages lead east, north, and south. on the west wall is scrawled the inscription, "fee fie foe foo" [sic]. there is a large nest here, full of golden eggs!
+
+note the "fee fie foe foo" inscription. it is a way to get the eggs back. this will be important when the eggs have to be used as payment later in the game.
+
+get eggs
+ok
+
+north
+you are at one end of an immense north/south passage. the way north is barred by a massive, rusty, iron door.
+
+oil door
+the oil has freed up the hinges so that the door will now move, although it requires some effort.
+
+drop bottle
+ok
+
+north
+you are in a magnificent cavern with a rushing stream, which cascades over a sparkling waterfall into a roaring whirlpool which disappears through a hole in the floor. passages exit to the south and west. there is a jewel-encrusted trident here!
+
+get trident
+ok
+
+west
+you are at the top of a steep incline above a large room. you could climb down here, but you would not be able to climb up. there is a passage leading back to the north.
+
+do go down here. this is the only deterministic way to get into the part of the cave coming up. this area can also be accessed from the swiss cheese room, but there is some randomness involved.
+
+down
+you are in a large low room. crawls lead north, se, and sw.
+
+sw
+you are in a long winding corridor sloping out of sight in both directions.
+
+up
+you are on one side of a large, deep chasm. a heavy white mist rising up from below obscures all view of the far side. a sw path leads away from the chasm into a winding corridor. a rickety wooden bridge extends across the chasm, vanishing into the mist. a sign posted on the bridge reads, "stop! pay troll!" a burly troll stands by the bridge and insists you throw him a treasure before you may cross.
+
+throw eggs
+the troll catches your treasure and scurries away out of sight.
+
+cross
+you are on the far side of the chasm. a ne path leads away from the chasm on this side. a rickety wooden bridge extends across the chasm, vanishing into the mist. a sign posted on the bridge reads, "stop! pay troll!" the troll is nowhere to be seen.
+
+ne
+you're in a long east/west corridor. a faint rumbling noise can be heard in the distance.
+
+e
+the path forks here. the left fork leads northeast. a dull rumbling seems to get louder in that direction. the right fork leads southeast down a gentle slope. the main corridor enters from the west.
+
+ne
+the walls are quite warm here. from the north can be heard a steady roar, so loud that the entire cave seems to be trembling. another passage leads south, and a low crawl goes east.
+
+east
+you are in a small chamber filled with large boulders. the walls are very warm, causing the air in the room to be almost stifling from the heat. the only exit is a crawl heading west, through which is coming a low rumbling. there are rare spices here!
+
+get spices
+ok
+
+west
+you're at junction with warm walls.
+
+you don't have to take the following side trip, but the view of the volcano is nice.
+
+north
+you are on the edge of a breath-taking view. far below you is an active volcano, from which great gouts of molten lava come surging out, cascading back down into the depths. the glowing rock fills the farthest reaches of the cavern with a blood-red glare, giving every- thing an eerie, macabre appearance. the air is filled with flickering sparks of ash and a heavy smell of brimstone. the walls are hot to the touch, and the thundering of the volcano drowns out all other sounds. embedded in the jagged roof far overhead are myriad twisted formations composed of pure white alabaster, which scatter the murky light into sinister apparitions upon the walls. to one side is a deep gorge, filled with a bizarre chaos of tortured rock which seems to have been crafted by the devil himself. an immense river of fire crashes out from the depths of the volcano, burns its way through the gorge, and plummets into a bottomless pit far off to your left. to the right, an immense geyser of blistering steam erupts continuously from a barren island in the center of a sulfurous lake, which bubbles ominously. the far right wall is aflame with an incandescence of its own, which lends an additional infernal splendor to the already hellish scene. a dark, foreboding passage exits to the south.
+
+south
+you're at junction with warm walls.
+
+south
+you're at fork in path.
+
+se
+you are walking along a gently sloping north/south passage lined with oddly shaped limestone formations.
+
+south
+you are standing at the entrance to a large, barren room. a sign posted above the entrance reads: "caution! bear in room!"
+
+enter
+you are inside a barren room. the center of the room is completely empty except for some dust. marks in the dust lead away toward the far end of the room. the only exit is the way you came in. there is a ferocious cave bear eying you from the far end of the room! the bear is locked to the wall with a golden chain!
+
+feed bear
+the bear eagerly wolfs down your food, after which he seems to calm down considerably and even becomes rather friendly.
+
+unlock chain
+the chain is now unlocked.
+
+drop keys
+ok
+
+get chain
+ok
+
+get bear
+ok
+
+exit
+you are being followed by a very large, tame bear. you're in front of barren room.
+
+west
+you are being followed by a very large, tame bear. you're in limestone passage.
+
+north
+you are being followed by a very large, tame bear. you're at fork in path.
+
+west
+you are being followed by a very large, tame bear. you're in corridor.
+
+west
+you are being followed by a very large, tame bear. you're on ne side of chasm. a rickety wooden bridge extends across the chasm, vanishing into the mist. a sign posted on the bridge reads, "stop! pay troll!" the troll is nowhere to be seen.
+
+cross
+the troll steps out from beneath the bridge and blocks your way. you are being followed by a very large, tame bear. you're on ne side of chasm. a rickety wooden bridge extends across the chasm, vanishing into the mist. a sign posted on the bridge reads, "stop! pay troll! " a burly troll stands by the bridge and insists you throw him a treasure before you may cross.
+
+throw bear
+the bear lumbers toward the troll, who lets out a startled shriek and scurries away. the bear soon gives up the pursuit and wanders back.
+
+do not take the bear with you across the bridge. the bridge will collapse under the weight of the bear, and you will die.
+
+cross
+you're on sw side of chasm. a rickety wooden bridge extends across the chasm, vanishing into the mist. a sign posted on the bridge reads, "stop! pay troll!" the troll is nowhere to be seen.
+
+sw
+you're in sloping corridor.
+
+down
+you are in a large low room. crawls lead north, se, and sw.
+
+se
+this is the oriental room. ancient oriental cave drawings cover the walls. a gently sloping passage leads upward to the north, another passage leads se, and a hands and knees crawl leads west. there is a delicate, precious, ming vase here!
+
+i will not be taking the vase yet, since the vase must be dropped onto a pillow, and i won't be able to carry the pillow with everything else. i'll get it on the next trip in.
+
+se
+you're in swiss cheese room.
+
+ne
+you are in bedquilt, a long east/west passage with holes everywhere. to explore at random select north, south, up, or down.
+
+east
+you're at complex junction.
+
+north
+you're in a large room carved out of sedimentary rock. the floor and walls are littered with bits of shells embedded in the stone. a shallow passage proceeds downward, and a somewhat steeper one leads up. a low hands and knees passage enters from the south. there is an enormous clam here with its shell tightly closed.
+
+you will need the trident to open the "clam."
+
+open clam
+a glistening pearl falls out of the clam and rolls away. goodness, this must really be an oyster. i never was very good at identifying bivalves.
+ whatever it is, it has now snapped shut again.
+
+down
+you are in a long sloping corridor with ragged sharp walls.
+
+down
+you are in a cul-de-sac about eight feet across. off to one side lies a glistening pearl!
+
+get pearl
+ok
+
+up
+you are in a long sloping corridor with ragged sharp walls.
+
+up
+you're in shell room. there is an enormous oyster here with its shell tightly closed.
+
+south
+you're at complex junction.
+
+up
+you're in dusty rock room.
+
+east
+you're in dirty passage.
+
+up
+you are in a low n/s passage at a hole in the floor. the hole goes down to an e/w passage.
+
+north
+you're at "y2".
+
+i am about to invoke another magic word, "plover." there is a room which has a very narrow crack as its entry way. nothing can get through it except me and the emerald. there's a treasure behind that crack which cannot fit through the crack. the only way to get the treasure out is to use the magic word. "plover" is a way to get into the room behind the crack.
+
+plover
+you're in a small chamber lit by an eerie green light. an extremely narrow tunnel exits to the west. a dark corridor leads ne. there is an emerald here the size of a plover's egg!
+
+ne
+you're in the dark-room. a corridor leading south is the only exit. a massive stone tablet embedded in the wall reads: "congratulations on bringing light into the dark-room!" there is a platinum pyramid here, 8 inches on a side!
+
+get pyramid
+ok
+
+south
+you're in plover room. there is an emerald here the size of a plover's egg!
+
+plover
+you're at "y2".
+
+plugh
+you're inside building. there are bars of silver here! there are many coins here! there is precious jewelry here! there is a large sparkling nugget of gold here! there are diamonds here!
+
+drop trident
+ok
+
+drop spices
+ok
+
+drop chain
+ok
+
+drop pearl
+ok
+
+drop pyramid
+ok
+
+plugh
+you're at "y2".
+
+south
+you are in a low n/s passage at a hole in the floor. the hole goes down to an e/w passage.
+
+south
+you're in hall of mt king. there is a small wicker cage discarded nearby. a cheerful little bird is sitting here singing.
+
+sw
+you are in a secret canyon which here runs e/w. it crosses over a very tight canyon 15 feet below. if you go down you may not be able to get back up.
+
+west
+you are in a secret canyon which exits to the north and east. a huge green fierce dragon bars the way! the dragon is sprawled out on a persian rug!!
+
+kill dragon
+with what? your bare hands?
+yes
+congratulations! you have just vanquished a dragon with your bare hands! unbelievable, isn't it?
+ you are in a secret canyon which exits to the north and east. there is a persian rug spread out on the floor! the body of a huge green dead dragon is lying off to one side.
+
+get rug
+ok
+
+north
+you are in a secret n/s canyon above a large room.
+
+down
+you are in a large low circular chamber whose floor is an immense slab fallen from the ceiling slab room
+. east and west there once were large passages, but they are now filled with boulders. low small passages go north and south, and the south one quickly bends west around the boulders.
+
+south
+you are at the west end of the twopit room. there is a large hole in the wall above the pit at this end of the room. there is a huge beanstalk growing out of the west pit up to the hole.
+
+down
+you are at the bottom of the western pit in the twopit room. there is a large hole in the wall about 25 feet above you. there is a gigantic beanstalk stretching all the way up to the hole.
+
+climb
+you clamber up the plant and scurry through the hole at the top. you're in narrow corridor.
+
+west
+you're in giant room.
+
+fee
+ok
+
+fie
+ok
+
+foe
+ok
+
+foo
+there is a large nest here, full of golden eggs!
+
+get eggs
+ok
+
+north
+you are at one end of an immense north/south passage. there is an empty bottle here. the way north leads through a massive, rusty, iron door.
+
+north
+you're in cavern with waterfall.
+
+west
+you're at steep incline above large room.
+
+down
+you are in a large low room. crawls lead north, se, and sw.
+
+se
+you're in oriental room. there is a delicate, precious, ming vase here!
+
+north
+you are following a wide path around the outer edge of a large cavern. far below, through a heavy white mist, strange splashing noises can be heard. the mist rises up through a fissure in the ceiling. the path exits to the south and west.
+
+west
+you are in an alcove. a small nw path seems to widen after a short distance. an extremely tight tunnel leads east. it looks like a very tight squeeze. an eerie light can be seen at the other end.
+
+the stuff about the plover room will soon make sense.
+
+drop lamp
+ok
+
+drop axe
+ok
+
+drop rug
+ok
+
+drop eggs
+ok
+
+east
+you're in plover room. there is an emerald here the size of a plover's egg!
+
+get emerald
+ok
+
+west
+you're in alcove. there is a large nest here, full of golden eggs! there is a persian rug spread out on the floor! there is a little axe here. there is a lamp shining nearby.
+
+get lamp
+ok
+
+get axe
+ok
+
+get rug
+ok
+
+get eggs
+ok
+
+nw
+you're in misty cavern.
+
+south
+you're in oriental room. there is a delicate, precious, ming vase here!
+
+get vase
+ok
+
+se
+you're in swiss cheese room.
+
+east
+you are in the soft room. the walls are covered with heavy curtains, the floor with a thick pile carpet. moss covers the ceiling. a small velvet pillow lies on the floor.
+
+get pillow
+ok
+
+west
+you are in a room whose walls resemble swiss cheese. obvious passages go west, east, ne, and nw. part of the room is occupied by a large bedrock block.
+
+ne
+you are in bedquilt, a long east/west passage with holes everywhere. to explore at random select north, south, up, or down.
+
+east
+you are at a complex junction. a low hands and knees passage from the north joins a higher crawl from the east to make a walking passage going west. there is also a large room above. the air is damp here.
+
+up
+you're in dusty rock room.
+
+east
+you're in dirty passage.
+
+up
+you are in a low n/s passage at a hole in the floor. the hole goes down to an e/w passage.
+
+north
+you are in a large room, with a passage to the south, a passage to the west, and a wall of broken rock to the east. there is a large "y2" on a rock in the room's center. a hollow voice says "plugh".
+
+plugh
+you're inside building. there is a platinum pyramid here, 8 inches on a side! off to one side lies a glistening pearl! there is a golden chain lying in a heap on the floor! there are rare spices here! there is a jewel-encrusted trident here! there are bars of silver here! there are many coins here! there is precious jewelry here! there is a large sparkling nugget of gold here! there are diamonds here!
+
+drop rug
+ok
+
+drop eggs
+ok
+
+drop emerald
+ok
+
+drop pillow
+ok
+
+drop vase
+the vase is now resting, delicately, on a velvet pillow.
+
+make sure you drop the pillow before the vase, otherwise the vase will shatter.
+
+xyzzy
+you're in debris room.
+
+west
+you are in an awkward sloping east/west canyon.
+
+west
+you're in bird chamber.
+
+west
+you're at top of small pit. rough stone steps lead down the pit.
+
+down
+you're in hall of mists. rough stone steps lead up the dome.
+
+west
+you're on east bank of fissure. a three foot black rod with a rusty star on an end lies nearby. a crystal bridge now spans the fissure.
+
+west
+you are on the west side of the fissure in the hall of mists. a crystal bridge now spans the fissure.
+
+west
+you are at the west end of hall of mists. a low wide crawl continues west and another goes north. to the south is a little passage 6 feet off the floor.
+
+we are about to enter the maze of twisty little passages, all alike. this is different from the maze of twisty little passages, all different.
+ we are entering this maze to get the pirate's chest. unfortunately, the chest will not show up until we have run into the pirate, which happens at random, anywhere in the cave. if we haven't encountered the pirate by the time we get to his hiding place, we will not find the chest. if we encounter the pirate while holding treasures, the pirate will take our treasures and put them in his chest.
+
+south
+you are in a maze of twisty little passages, all alike.
+
+east
+you are in a maze of twisty little passages, all alike.
+
+south
+you are in a maze of twisty little passages, all alike.
+
+south
+you are in a maze of twisty little passages, all alike.
+
+south
+there are faint rustling noises from the darkness behind you. as you turn toward them, the beam of your lamp falls across a bearded pirate. he is carrying a large chest. "shiver me timbers!" he cries, "i've been spotted! i'd best hie meself off to the maze to hide me chest!" with that, he vanishes into the gloom. you are in a maze of twisty little passages, all alike.
+
+i have often found if i wander around this maze, the pirate will show up. it doesn't always work out this way. sometimes i get killed by dwarves instead.
+
+north
+you are in a maze of twisty little passages, all alike.
+
+east
+you are on the brink of a thirty foot pit with a massive orange column down one wall. you could climb down here but you could not get back up. the maze continues at this level.
+
+east
+you are in a maze of twisty little passages, all alike.
+
+nw
+dead end
+the pirate's treasure chest is here!
+
+get chest
+ok
+
+se
+you are in a maze of twisty little passages, all alike.
+
+north
+you're at brink of pit.
+
+down
+you're in bird chamber.
+
+east
+you are in an awkward sloping east/west canyon.
+
+east
+you're in debris room.
+
+xyzzy
+you're inside building. there is a delicate, precious, ming vase here! a small velvet pillow lies on the floor. there is an emerald here the size of a plover's egg! there is a large nest here, full of golden eggs! there is a persian rug spread out on the floor! there is a platinum pyramid here, 8 inches on a side! off to one side lies a glistening pearl! there is a golden chain lying in a heap on the floor! there are rare spices here! there is a jewel-encrusted trident here! there are bars of silver here! there are many coins here! there is precious jewelry here! there is a large sparkling nugget of gold here! there are diamonds here!
+
+drop chest
+ok
+
+we now have all fifteen treasures. it is time to go back into the cave for the end game.
+
+plugh
+you're at "y2".
+
+south
+you are in a low n/s passage at a hole in the floor. the hole goes down to an e/w passage.
+
+down
+you are in a dirty broken passage. to the east is a crawl. to the west is a large passage. above you is a hole to another passage.
+
+west
+you are in a large room full of dusty rocks. there is a big hole in the floor. there are cracks everywhere, and a passage leading east.
+
+down
+you're at complex junction.
+
+east
+you are in an anteroom leading to a large passage to the east. small passages go west and up. the remnants of recent digging are evident. a sign in midair here says "cave under construction beyond this point. proceed at own risk. [witt construction company]" there are a few recent issues of "spelunker today" magazine here.
+
+you must pick up the magazine and drop it at witt's end in order to get to the end game.
+
+get magazine
+ok
+
+east
+you are at witt's end. passages lead off in *all* directions.
+
+drop magazine
+ok
+
+at this point, we must turn off our lamp and just wait.
+
+lamp off
+your lamp is now off. it is now pitch dark. if you proceed you will likely fall into a pit.
+
+nothing
+ok
+
+nothing
+ok
+
+nothing
+ok
+
+nothing
+ok
+
+nothing
+ok
+
+nothing
+ok
+do you need help getting out of here?
+no
+ok
+
+nothing
+a sepulchral voice reverberating through the cave, says, "cave closing soon. all adventurers exit immediately through main office."
+ok
+
+nothing
+ok
+
+nothing
+ok
+
+etc., etc., etc. the computer will ask about needing help 3 or 4 times. you will have to do nothing 30 to 40 times.
+
+nothing
+ok
+
+nothing
+ok
+
+nothing
+the sepulchral voice intones, "the cave is now closed." as the echoes fade, there is a blinding flash of light and a small puff of orange smoke
+. . . . as your eyes refocus, you look around and find...
+
+you are at the northeast end of an immense room, even larger than the giant room. it appears to be a repository for the "adventure" program. massive torches far overhead bathe the room with smoky yellow light. scattered about you can be seen a pile of bottles all of them empty
+, a nursery of young beanstalks murmuring quietly, a bed of oysters, a bundle of black rods with rusty stars on their ends, and a collection of brass lanterns. off to one side a great many dwarves are sleeping on the floor, snoring loudly. a sign nearby reads: "do not disturb the dwarves!" an immense mirror is hanging against one wall, and stretches to the other end of the room, where various other sundry objects can be glimpsed dimly in the distance.
+
+it's end game. if you don't do exactly as i have done, you will either blow yourself up or wake up the dwarves and get killed.
+
+sw
+you are at the southwest end of the repository. to one side is a pit full of fierce green snakes. on the other side is a row of small wicker cages, each of which contains a little sulking bird. in one corner is a bundle of black rods with rusty marks on their ends. a large number of velvet pillows are scattered about on the floor. a vast mirror stretches off to the northeast. at your feet is a large steel grate, next to which is a sign which reads, "treasure vault. keys in main office." the grate is locked.
+
+get rod
+ok
+
+ne
+you're at ne end.
+
+drop rod
+ok
+
+sw
+you're at sw end. the grate is locked.
+
+detonate
+there is a loud explosion, and a twenty-foot hole appears in the far wall, burying the dwarves in the rubble. you march through the hole and find yourself in the main office, where a cheering band of friendly elves carry the conquering adventurer off into the sunset.
+
+you scored 350 out of a possible 350 using 342 turns.
+
+all of adventuredom gives tribute to you, adventurer grandmaster! to achieve the next higher rating would be a neat trick!
+
+congratulations!!
+comments about the mazes...
+
+there are two mazes in this cave; we saw only one. the maze with passages all different leads to a vending machine where more oil can be purchased for your lamp. if you do this, you cannot win the game. then again, if you run out of oil, you will fall into a pit and die that much sooner.
+
+if you look carefully at the descriptions of the rooms in the "all different" maze, you will see each description is slightly different.
+you are in a maze of twisty little passages, all different.
+you are in a twisty maze of little passages, all different.
+you are in a little twisty maze of passages, all different.
+you are in a twisty little maze of passages, all different.
+you are in a maze of little twisty passages, all different.
+you are in a little maze of twisty passages, all different.
+you are in a maze of twisting little passages, all different.
+you are in a twisting maze of little passages, all different.
+you are in a maze of little twisting passages, all different.
+you are in a little maze of twisting passages, all different.
+you are in a twisting little maze of passages, all different.
+the vending machine is south off of little maze of twisting passages. the exit is down from maze of twisty little passages. you can figure out the rest.
+
+the maze where all of the passages are alike is a lot more challenging to navigate. to map it, you must make the rooms different by dropping things in them. if you drop treasures, you risk having the pirate steal them, so best to drop things that aren't treasures. to map all the rooms, you will have to make several trips into the maze with more armloads of stuff. of course, why should you bother? i've already given you the most direct route through the maze. and, yes, i have fully mapped both mazes. it's a great time sink.
+
+
+
+you are standing at the end of a road before a small brick building.
+around you is a forest.  a small stream flows out of the building and
+down a gully.
+
+
+    all different maze
+
+you are in a maze of twisty little passages, all different.
+you are in a little maze of twisting passages, all different.
+you are in a maze of twisting little passages, all different.
+you are in a little maze of twisty passages, all different.
+you are in a twisting maze of little passages, all different.
+you are in a twisting little maze of passages, all different.
+you are in a twisty little maze of passages, all different.
+you are in a twisty maze of little passages, all different.
+you are in a little twisty maze of passages, all different.
+you are in a maze of little twisting passages, all different.
+you are in a maze of little twisty passages, all different.
+
+
+    all alike maze
+
+you are in a maze of twisty little passages, all alike.
+
+
+    witt's end
+
+you are at witt's end.  passages lead off in *all* directions.
+
+
+    mirror canyon
+
+you are in a north/south canyon about 25 feet across.  the floor is
+covered by white mist seeping in from the north.  the walls extend
+upward for well over 100 feet.  suspended from some unseen point far
+above you, an enormous two-sided mirror is hanging parallel to and
+midway between the canyon walls.  the mirror is obviously provided
+for the use of the dwarves, who as you know, are extremely vain.
+  a
+small window can be seen in either wall, some fifty feet up.
+
+
+    breath-taking view
+
+you are on the edge of a breath-taking view.  far below you is an
+active volcano, from which great gouts of molten lava come surging
+out, cascading back down into the depths.  the glowing rock fills the
+farthest reaches of the cavern with a blood-red glare, giving every-
+thing an eerie, macabre appearance.  the air is filled with flickering
+sparks of ash and a heavy smell of brimstone.  the walls are hot to
+the touch, and the thundering of the volcano drowns out all other
+sounds.  embedded in the jagged roof far overhead are myriad twisted
+formations composed of pure white alabaster, which scatter the murky
+light into sinister apparitions upon the walls.  to one side is a deep
+gorge, filled with a bizarre chaos of tortured rock which seems to
+have been crafted by the devil himself.  an immense river of fire
+crashes out from the depths of the volcano, burns its way through the
+gorge, and plummets into a bottomless pit far off to your left.  to
+the right, an immense geyser of blistering steam erupts continuously
+from a barren island in the center of a sulfurous lake, which bubbles
+ominously.  the far right wall is aflame with an incandescence of its
+own, which lends an additional infernal splendor to the already
+hellish scene.  a dark, foreboding passage exits to the south.
+
+
+other game text
+
+
+    magic word
+
+a hollow voice says "plugh".
+
+
+    killing the dragon
+
+kill dragon
+
+with what?  your bare hands?  
+
+yes
+
+congratulations!  you have just vanquished a dragon with your bare    
+hands!  unbelievable, isn't it?
+  
+
+
+    please do not feed the dwarves
+
+you fool, dwarves eat only coal!  now you've made him *really* mad!!
+west of house
+you are standing in an open field west of a white house, with a boarded front door.
+[a secret path leads southwest into the forest.]
+small mailbox
+take mailbox
+  it is securely anchored.
+open mailbox
+ opening the small mailbox reveals a leaflet.
+east
+ the door is boarded and you can't remove the boards.
+open door
+ the door cannot be opened.
+take boards
+ the boards are securely fastened.
+look house
+ the house is a beautiful colonial house which is painted white. it is clear that the owners must have been extremely wealthy.
+north of house
+you are facing the north side of a white house. there is no door here, and all the windows are boarded up. to the north a narrow path winds through the trees.
+south
+ the windows are all boarded.
+open windows
+ the windows are boarded and can't be opened.
+break windows
+ you can't break the windows open.
+take boards
+ the boards are securely fastened.
+south of house
+you are facing the south side of a white house. there is no door here, and all the windows are boarded.
+north
+ the windows are all boarded.
+open windows
+ the windows are boarded and can't be opened.
+break windows
+ you can't break the windows open.
+take boards
+ the boards are securely fastened.
+behind house
+you are behind the white house. a path leads into the forest to the east. in one corner of the house there is a small window which is slightly ajar[open].
+west?
+ the window is slightly ajar, but not enough to allow entry.
+west
+ the kitchen window is closed.
+look in window
+ you can see what appears to be a kitchen.
+open window
+ with great effort, you open the window far enough to allow entry.
+close window
+ the window closes more easily than it opened
+.
+[roof]
+
+how do i get off the roof of the house?
+   1. how did you get up there?
+   2. someone from infocom would love to hear how you did it.
+forest path
+this is a path winding through a dimly lit forest. the path heads north-south here. one particularly large tree with some low branches stands at the edge of the path.
+
+up a tree
+you are about 10 feet above the ground nestled among some large branches. the nearest branch above you is above your reach.
+[on the ground below you can see:]
+bird’s nest
+jewel-encrusted egg
+drop nest
+ the nest falls to the ground, and the egg spills out of it, seriously damaged.
+drop egg
+ the egg falls to the ground and springs open, seriously damaged.
+drop obj
+ the object falls to the ground.
+climb tree/up
+ you cannot climb any higher.
+forest 1
+ 
+this is a forest, with trees in all directions. to the east, there appears to be sunlight.
+random in forest areas
+ you hear in the distance the chirping of a song bird.
+listen to trees in forest areas
+ the pines and the hemlocks seem to be murmuring.
+?
+you cannot see the forest for the trees.
+west
+ you would need a machete to go further west.
+
+songbird material
+
+the songbird is not here but is probably nearby.
+you can't hear the songbird now.
+it can't be followed.
+forest 2
+
+this is a dimly lit forest, with large trees all around.
+north
+ the forest becomes impenetrable to the north.
+forest 3
+
+this is a dimly lit forest, with large trees all around.
+south
+ storm-tossed trees block your way.
+east
+ the rank undergrowth prevents eastward movement.
+forest mountains
+ 4
+
+the forest thins out, revealing impassable mountains.
+east
+ the mountains are impassable.
+climb mountains
+ don't you believe me? the mountains are impassable!
+clearing 1
+
+ you are in a clearing, with a forest surrounding you on all sides. a path leads south.
+pile of leaves
+grating
+[there is a grating securely fastened into the ground.]
+[there is an open grating, descending into darkness.]
+north
+ the forest becomes impenetrable to the north.
+move leaves
+ in disturbing the pile of leaves, a grating is revealed.
+with the leaves moved, a grating is revealed.
+you rustle the leaves around, making quite a mess.
+underneath the pile of leaves is a grating. as you release the leaves, the grating is once again concealed from view.
+open grating
+ the grating is locked.
+the grating is closed.
+clearing 2
+
+you are in a small clearing in a well marked forest path that extends to the east and west.
+climb tree
+ elsewhere too
+ there is no tree here suitable for climbing.
+canyon view
+you are at the top of the great canyon on its west wall. from here there is a marvelous view of the canyon and parts of the frigid river upstream. across the canyon, the walls of the white cliffs join the mighty ramparts of the flathead mountains to the east. following the canyon upstream to the north, aragain falls may be seen, complete with rainbow. the mighty frigid river flows out from a great dark cavern. to the west and south can be seen an immense forest, stretching for miles around. a path leads northwest. it is possible to climb down into the canyon from here.
+jump
+ nice view, lousy place to jump.
+rocky ledge
+you are on a ledge about halfway up the wall of the river canyon. you can see from here that the main flow from aragain falls twists along a passage which it is impossible for you to enter. below you is the canyon bottom. above you is more cliff, which appears climbable.
+
+canyon bottom
+you are beneath the walls of the river canyon which may be climbable here. the lesser part of the runoff of aragain falls flows by below. to the north is a narrow path.
+
+end of rainbow
+you are on a small, rocky beach on the continuation of the frigid river past the falls. the beach is narrow due to the presence of the white cliffs. the river canyon opens here and sunlight shines in from above. a rainbow crosses over the falls to the east and a narrow path continues to the southwest.
+[pot of gold]
+cross rainbow
+ can you walk on water vapor?
+kitchen
+you are in the kitchen of the white house. a table seems to have been used recently for the preparation of food. a passage leads to the west and a dark staircase can be seen leading upward. a dark chimney leads down and to the east is a small window which is open[slightly ajar].
+brown sack
+glass bottle
+look in window
+ you can see a clear area leading towards a forest.
+down
+ only santa claus climbs down chimneys.
+enter chimney
+ you hit your head against the chimney as you attempt this feat.
+look at chimney
+ the chimney leads upward, and looks climbable.
+attic
+this is the attic. the only exit is a stairway leading down.
+rope
+nasty knife
+
+living room
+you are in the living room. there is a doorway to the east, a wooden door with strange gothic lettering to the west, which appears to be nailed shut,
+/ to the west is a cyclops-shaped opening in an old wooden door, above which is some strange gothic lettering,
+ a trophy case, and
+and a large oriental rug in the center of the room.
+
+and a rug lying beside an open trap door.
+
+and a closed trap door at your feet.
+
+and an open trap door at your feet.
+
+trophy case
+carpet
+sword
+brass lantern
+trap door
+wooden door
+take case
+ the trophy case is securely fastened to the wall
+take carpet
+ the rug is too heavy to lift, but in trying to take it you have noticed an irregularity beneath it.
+take carpet
+ the rug is extremely heavy and cannot be carried.
+move carpet
+ with a great effort, the rug is moved to one side of the room, revealing the dusty cover of a closed trap door.
+move carpet
+ having moved the carpet previously, you find it impossible to move it again.
+look under carpet
+ underneath the rug is a closed trap door. as you drop the corner of the rug, the trap door is once again concealed from view.
+sit on carpet
+ as you sit, you notice an irregularity underneath it. rather than be uncomfortable, you stand up again.
+sit on carpet
+ i suppose you think it's a magic carpet?
+down
+ the trap door is closed.
+west
+ the door is nailed shut.
+?
+you see a rickety staircase descending into darkness.
+open trap door
+ the door reluctantly opens to reveal a rickety staircase descending into darkness.
+take nails
+ the nails, deeply imbedded in the door, cannot be removed.
+open wooden door
+ the door cannot be opened.
+read lettering
+ the engravings translate to "this space intentionally left blank."
+
+if all treasures in case
+  an almost inaudible voice whispers in your ear, "look to your treasures for the final secret."
+cellar
+you are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. on the west is the bottom of a steep metal ramp which is unclimbable
+upon entering
+ the trap door crashes shut, and you hear someone barring it.
+west
+ you try to ascend the ramp, but it is impossible, and you slide back down.
+
+it's closed.
+the door is locked from above.
+the door closes and locks.
+east of chasm
+you are on the east edge of a chasm, the bottom of which cannot be seen. a narrow passage goes north, and the path you are on continues to the east.
+down
+the chasm probably leads straight to the infernal regions.
+jump
+ this was not a very safe place to try jumping.
+in the movies, your life would be passing before your eyes.
+gallery
+this is an art gallery. most of the paintings have been stolen by vandals with exceptional taste. the vandals left through either the north or west exits.
+painting
+
+studio
+this appears to have been an artist's studio. the walls and floors are splattered with paints of 69 different colors. strangely enough, nothing of value is hanging here. at the south end of the room is an open door also covered with paint
+. a dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+up
+ going up empty-handed is a bad idea.
+up
+ you can't get up there with what you're carrying.
+look at chimney
+ the chimney leads upward, and looks climbable.
+the troll room
+this is a small room with passages to the east and south and a forbidding hole leading west. bloodstains and deep scratches perhaps made by an axe
+ mar the walls.
+west or east
+ the troll fends you off with a menacing gesture.
+maze 1
+ this is part of a maze of twisty little passages, all alike.
+
+maze 2
+ this is part of a maze of twisty little passages, all alike.
+
+maze 3
+ this is part of a maze of twisty little passages, all alike.
+
+maze 4
+ this is part of a maze of twisty little passages, all alike.
+
+maze 5
+ this is part of a maze of twisty little passages, all alike. a skeleton,
+probably the remains of a luckless adventurer, lies here.
+skeleton
+rusty knife
+burned-out lantern
+skeleton key
+leather bag of coins
+take skeleton
+ a ghost appears in the room and is appalled at your desecration of the remains of a fellow adventurer. he casts a curse on your valuables and banishes them to the land of the living dead. the ghost leaves, muttering obscenities.
+
+maze 6
+ this is part of a maze of twisty little passages, all alike.
+
+maze 7
+ this is part of a maze of twisty little passages, all alike.
+
+maze 8
+ this is part of a maze of twisty little passages, all alike.
+
+maze 9
+ this is part of a maze of twisty little passages, all alike.
+
+maze 10
+ this is part of a maze of twisty little passages, all alike.
+
+maze 11
+ this is part of a maze of twisty little passages, all alike.
+
+maze 12
+ this is part of a maze of twisty little passages, all alike.
+
+maze 13
+ this is part of a maze of twisty little passages, all alike.
+
+maze 14
+ this is part of a maze of twisty little passages, all alike.
+
+maze 15
+ this is part of a maze of twisty little passages, all alike. 
+
+dead end 1
+ you have come to a dead end in the maze
+
+dead end 2
+ you have come to a dead end in the maze
+
+dead end 3
+ you have come to a dead end in the maze
+
+dead end 4
+ you have come to a dead end in the maze
+
+grating room
+you are in a small room near the maze. there are twisty passages in the immediate vicinity.
+above you is a grating locked with a skull-and-crossbones lock.
+above you is a grating.
+
+above you is an open grating with sunlight pouring in.
+
+the grate is locked.
+you can't lock it from this side.
+the grate is unlocked.
+the grating is closed!
+you can't reach the lock from here.
+can you unlock a grating with a x?
+you can't pick the lock.
+a pile of leaves falls onto your head and to the ground.
+it won't fit through the grating.
+the x goes through the grating into the darkness below.
+the grating opens. 
+the grating opens to reveal trees above you.
+cyclops room
+this room has an exit on the northwest, and a staircase leading up.
+[the east wall, previously solid, now has a cyclops-sized opening in it.]
+cyclops
+east
+ the east wall is solid rock.
+up
+ the cyclops doesn't look like he'll let you past.
+strange passage
+this is a long passage. to the west is one entrance. on the east there is an old wooden door, with a large opening in it about cyclops sized
+.
+
+treasure room
+this is a large room, whose east wall is solid granite. a number of discarded bags, which crumble at your touch, are scattered about on the floor. there is an exit down a staircase.
+thief
+chalice
+
+east-west passage
+this is a narrow east-west passageway. there is a narrow stairway leading down at the north end of the room.
+
+round room
+this is a circular stone room with passages in all directions. several of them have unfortunately been blocked by cave-ins.
+
+narrow passage
+this is a long and narrow corridor where a long north-south passageway briefly narrows even further.
+
+mirror room south
+
+you are in a large square room with tall ceilings. on the south wall is an enormous mirror which fills the entire wall. there are exits on the other three sides of the room.
+[unfortunately, the mirror has been destroyed by your recklessness.]
+take mirror
+ the mirror is many times your size. give up.
+look
+ there is an ugly person staring back at you.
+break mirror
+ you have broken the mirror. i hope you have a seven years' supply of good luck handy.
+break mirror
+ haven't you done enough damage already?
+?
+ the mirror is broken into many pieces.
+touch mirror
+ there is a rumble from deep within the earth and the room shakes.
+winding passage
+this is a winding passage. it seems that there are only exits on the east and north.
+
+cave
+this is a tiny cave with entrances west and north, and a dark, forbidding staircase leading down.
+
+entrance to hades
+you are outside a large gateway, on which is inscribed
+
+  abandon every hope all ye who enter here!
+
+the gate is open; through it you can see a desolation, with a pile of mangled bodies in one corner. thousands of voices, lamenting some hideous fate, can be heard.
+[the way through the gate is barred by evil spirits, who jeer at your attempts to pass.]
+south
+ some invisible force prevents you from passing through the gate.
+exorcise
+ you aren't equipped for an exorcism.
+?
+you must perform the ceremony.
+?
+ only the ceremony itself has any effect.
+talk to spirits
+ the spirits jeer loudly and ignore you.
+attack spirits
+ how can you attack a spirit with material objects?
+take spirits
+ you seem unable to interact with these spirits.
+
+ring bell
+ the bell suddenly becomes red hot and falls to the ground. the wraiths, as if paralyzed, stop their jeering and slowly turn to face you. on their ashen faces, the expression of a long-forgotten terror takes shape. in your confusion, the candles drop to the ground and they are out
+.
+wait too long
+ the tension of this ceremony is broken, and the wraiths, amused but shaken at your clumsy attempt, resume their hideous jeering.
+light candles with match
+ the flames flicker wildly and appear to dance. the earth beneath your feet trembles, and your legs nearly buckle beneath you. the spirits cower at your unearthly power.
+read book
+ each word of the prayer reverberates through the hall in a deafening confusion. as the last word fades, a voice, loud and commanding, speaks: "begone, fiends!" a heart-stopping scream fills the cavern, and the spirits, sensing a greater power, flee through the walls.
+
+the gate is protected by an invisible force. it makes your teeth ache to touch it.
+land of the dead
+you have entered the land of the living dead. thousands of lost souls can be heard weeping and moaning. in the corner are stacked the remains of dozens of previous adventurers less fortunate than yourself. a passage exits to the north.
+crystal skull
+take bodies
+ a force keeps you from taking the bodies.
+engravings cave
+you have entered a low cave with passages leading northwest and east.
+engravings there are old engravings on the walls here.
+
+read engravings
+
+the engravings were incised in the living rock of the cave wall by an unknown hand. they depict, in symbolic form, the beliefs of the ancient zorkers. skillfully interwoven with the bas reliefs are excerpts illustrating the major religious tenets of that time. unfortunately, a later age seems to have considered them blasphemous and just as skillfully excised them.
+
+what is the significance of all the engravings?
+      the knowledgeable critic, i. q. roundhead, wrote a ten-volume study of the engravings of the ancient zorkers. to make a long story short, he concluded that the zorkers were very strange people.
+dome room
+you are at the periphery of a large dome, which forms the ceiling of another room below. protecting you from a precipitous drop is a wooden railing which circles the dome.
+[hanging down from the railing is a rope which ends about ten feet from the floor below.]
+railing
+?
+as you enter the dome you feel a strong pull as if from a wind drawing you over the railing and down.
+ tie rope to railing
+ the rope drops over the side and comes within ten feet of the floor.
+?
+the rope drops gently to the floor below.
+?
+the rope is tied to the railing.
+down
+ you cannot go down without fracturing many bones.
+
+torch room
+this is a large room with a prominent doorway leading to a down staircase. above you is a large dome. up around the edge of the dome 20 feet up
+ is a wooden railing. in the center of the room sits a white marble pedestal.
+[a piece of rope descends from the railing above, ending some five feet above your head.]
+torch
+up
+ you cannot reach the rope.
+temple
+this is the north end of a large temple. on the east wall is an ancient inscription, probably a prayer in a long-forgotten language. below the prayer is a staircase leading down. the west wall is solid granite. the exit to the north end of the room is through huge marble pillars.
+brass bell
+read inscription
+ 
+the prayer is inscribed in an ancient script, rarely used today. it seems to be a philippic against small insects, absent-mindedness, and the picking up and dropping of small objects. the final verse consigns trespassers to the land of the dead. all evidence indicates that the beliefs of the ancient zorkers were obscure.
+egyptian room
+this is a room which looks like an egyptian tomb. there is an ascending staircase to the west.
+gold coffin
+open coffin
+ the gold coffin opens. 
+a sceptre, possibly that of ancient egypt itself, is in the coffin. the sceptre is ornamented with colored enamel, and tapers to a sharp point.
+altar
+this is the south end of a large temple. in front of you is what appears to be an altar. in one corner is a small hole in the floor which leads into darkness. you probably could not get back up it.
+pair of candles
+black book
+down
+ you haven't a prayer of getting the coffin down there.
+
+pray
+ to foret
+
+pray while dead
+ from the distance the sound of a lone trumpet is heard. the room becomes very bright and you feel disembodied. in a moment, the brightness fades and you find yourself rising as if from a long sleep, deep in the woods. in the distance you can faintly hear a songbird and the sounds of the forest.
+north-south passage
+this is a high north-south passage, which forks to the northeast.
+
+chasm 
+a chasm runs southwest to northeast and the path follows it. you are on the south side of the chasm, where a crack opens into a passage. 
+down
+ are you out of your mind?
+
+?
+
+you look before leaping, and realize that you would never survive.
+it's too far to jump, and there's no bridge.
+the obj drops out of sight into the chasm.
+deep canyon
+you are on the south edge of a deep canyon. passages lead off to the east, northwest and southwest. a stairway leads down. you can hear the sound of flowing water from below.
+/ you can hear a loud roaring sound, like that of rushing water, from below.
+
+
+loud room
+this is a large room with a ceiling which cannot be detected from the ground. there is a narrow passage from east to west and a stone stairway leading upward. the room is deafeningly loud with an undetermined rushing sound. the sound seems to reverberate from all of the walls, making it difficult even to think.
+/the room is eerie in its quietness.
+/ it is unbearably loud here, with an ear-splitting roar seeming to come from all around you. there is a pounding in your head which won't stop. with a tremendous effort, you scramble out of the room.
+
+platinum bar
+?
+the rest of your commands have been lost in the noise.
+echo
+ the acoustics of the room change subtly.
+
+?
+ a sound, like that of flowing water, starts to come from below.
+?
+ the roar of rushing water is quieter now.
+?
+all of a sudden, an alarmingly loud roaring sound fills the room. filled with fear, you scramble away.
+damp cave
+this cave has exits to the west and east, and narrows to a crack toward the south. the earth is particularly damp here.
+south
+ it is too narrow for most insects.
+stream view
+you are standing on a path beside a gently flowing stream. the path follows the stream, which flows from west to east.
+west
+ the stream emerges from a spot too small for you to enter.
+
+?
+
+you can't swim in the stream.
+the other side is a sheer rock cliff.
+stream
+you are on the gently flowing stream. the upstream route is too narrow to navigate, and the downstream route is invisible due to twisting walls. there is a narrow beach to land on.
+west
+ the channel is too narrow.
+reservoir south
+you are in a long room on the south shore of a large lake, far too deep and wide for crossing. 
+[you are in a long room. to the north is a large lake, too deep to cross. you notice, however, that the water level appears to be dropping at a rapid rate. before long, it might be possible to cross to the other side from here.]
+[you are in a long room, to the north of which was formerly a lake. however, with the water level lowered, there is merely a wide stream running through the center of the room.]
+there is a path along the stream to the east or west, a steep pathway climbing southwest along the edge of a chasm, and a path leading into a canyon to the southeast.
+north
+ you would drown.
+wait
+ the water level is now quite low here and you could easily cross over to the other side.
+wait
+ you notice that the water level has risen to the point that it is impossible to cross.
+
+
+?
+ 
+there's not much lake left....
+it's too wide to cross.
+you can't swim in this lake.
+
+
+reservoir
+you are on the lake. beaches can be seen north and south. upstream a small stream enters the lake through a narrow cleft in the rocks. the dam can be seen downstream.
+[you are on what used to be a large lake, but which is now a large mud pile. there are "shores" to the north and south.]
+trunk of jewels
+east
+ the dam blocks your way.
+wait
+ the water level has dropped to the point at which the boat can no longer stay afloat. it sinks into the mud.
+wait
+ the boat lifts gently out of the mud and is now floating on the reservoir.
+wait
+ you notice that the water level here is rising rapidly. the currents are also becoming stronger. staying here seems quite perilous!
+if on boat after full
+ the rising water carries the boat over the dam, down the river, and over the falls. tsk, tsk.
+if in while filling
+ you are lifted up by the rising river! you try to swim, but the currents are too strong. you come closer, closer to the awesome structure of flood control dam #3. the dam beckons to you. the roar of the water nearly deafens you, but you remain conscious as you tumble over the dam toward your certain doom among the rocks at its base.
+reservoir north
+you are in a large cavernous room, north of a large lake
+[you are in a large cavernous room, the south of which was formerly a lake. however, with the water level lowered, there is merely a wide stream running through there.]
+[you are in a long room, to the north of which is a wide area which was formerly a reservoir, but now is merely a stream. you notice, however, that the level of the stream is rising quickly and that before long it will be impossible to cross here.]
+[you are in a large cavernous area. to the south is a wide lake, whose water level appears to be falling rapidly.]
+[you are in a cavernous area, to the south of which is a very wide stream. the level of the stream is rising rapidly, and it appears that before long it will be impossible to cross to the other side.]
+there is a slimy stairway leaving the room to the north.
+hand-held air pump
+south
+ you would drown.
+dam
+you are standing on the top of the flood control dam #3, which was quite a tourist attraction in times far distant. there are paths to the north, south, and west, and a scramble down.
+the sluice gates on the dam are closed. behind the dam, there can be seen a wide reservoir. water is pouring over the top of the now abandoned dam.
+
+the sluice gates are closed. the water level in the reservoir is quite low, but the level is rising quickly.
+
+the sluice gates are open, and water rushes through the dam. the water level behind the dam is still high.
+
+the water level behind the dam is low: the sluice gates have been opened. water rushes through the dam and downstream.
+
+there is a control panel here, on which a large metal bolt is mounted. directly above the bolt is a small green plastic bubble [which is glowing serenely].
+turn bolt with wrench
+ the sluice gates close and water starts to collect behind the dam.
+turn bolt with wrench
+ the sluice gates open and water pours through the dam.
+turn bolt
+ the bolt won't turn with your best effort.
+turn bolt
+ the bolt won't turn using the x.
+turn bolt?
+ you can't with your bare hands.
+grease bolt with gunk
+ hmm. it appears the tube contained glue, not oil. turning the bolt won't get any easier.... 
+take bubble
+ it is an integral part of the control panel.
+?
+are you the little dutch boy, then? sorry, this is a big dam.
+dam lobby
+this room appears to have been the waiting room for groups touring the dam. there are open doorways here to the north and east marked "private", and there is a path leading south over the top of the dam.
+tour guidebook
+matchbook
+north/east
+ the room is full of water and cannot be entered.
+maintenance room
+this is what appears to have been the maintenance room for flood control dam #3. apparently, this room has been ransacked recently, for most of the valuable equipment is gone. on the wall in front of you is a group of buttons colored blue, yellow, brown, and red. there are doorways to the west and south.
+group of tool chests
+wrench
+tube
+screwdriver
+take chests
+ the chests are so rusty and corroded that they crumble when you touch them.
+?
+the chests are all empty.
+open chests
+ the chests are already open.
+push blue
+ there is a rumbling sound and a stream of water appears to burst from the east wall of the room apparently, a leak has occurred in a pipe
+.
+push blue
+ the blue button appears to be jammed.
+push brown
+ click.
+push yellow
+ click.
+push red
+ the lights within the room come on
+/shut off
+.
+water level leak
+ the water level here is now
+up to your ankles.
+up to your shin.
+up to your knees.
+up to your hips.
+up to your waist.
+up to your chest.
+up to your neck.
+over your head.
+high in your lungs.
+i'm afraid you have done drowned yourself.
+dam base
+you are at the base of flood control dam #3, which looms above you and to the north. the river frigid is flowing by here. along the river are the white cliffs which seem to form giant walls stretching from north to south along the shores of the river as it winds its way downstream.
+
+frigid river 1
+
+you are on the frigid river in the vicinity of the dam. the river flows quietly here. there is a landing on the west shore.
+east
+ the white cliffs prevent your landing here.
+wait
+ the flow of the river carries you downstream.
+?
+you cannot go upstream due to strong currents.
+
+enter river
+ a look before leaping reveals that the river is wide and dangerous, with swift currents and large, half-hidden rocks. you decide to forgo your swim.
+throw in water
+ the obj floats for a moment, then sinks.
+throw in water
+ the obj splashes into the water and is gone forever.
+frigid river 2
+
+the river turns a corner here making it impossible to see the dam. the white cliffs loom on the east bank and large rocks prevent landing on the west.
+east
+ the white cliffs prevent your landing here.
+west
+ just in time you steer away from the rocks.
+land
+ there is no safe landing spot here.
+frigid river 3
+
+the river descends here into a valley. there is a narrow beach on the west shore below the cliffs. in the distance a faint rumbling can be heard.
+land
+ you can land either to the east or the west.
+swimming?
+ you splash around for a while, fighting the current, then you drown.
+frigid river 4
+
+the river is running faster here and the sound ahead appears to be that of rushing water. on the east shore is a sandy beach. a small area of beach can also be seen below the cliffs on the west shore.
+red buoy
+swimming?
+ 
+another pathetic sputter, this time from you, heralds your drowning.
+frigid river 5
+
+the sound of rushing water is nearly unbearable here. on the east shore is a large landing area.
+wait
+ unfortunately, the magic boat doesn't provide protection from the rocks and boulders one meets at the bottom of waterfalls. including this one.
+wait
+ in other words, fighting the fierce currents of the frigid river. you
+ to hold your own for a bit, but then you are carried over a waterfall and into some nasty rocks. ouch!
+white cliffs beach north
+
+you are on a narrow strip of beach which runs along the base of the
+ cliffs. there is a narrow path heading south along the cliffs and a tight passage leading west into the cliffs themselves.
+south
+ the path is too narrow.
+white cliffs beach south
+
+you are on a rocky, narrow strip of beach beside the cliffs. a narrow path leads north along the shore.
+north
+ the path is too narrow.
+sandy beach  [in darkness]
+you are on a large sandy beach on the east shore of the river, which is flowing quickly by. a path runs beside the river to the south here, and a passage is partially buried in sand to the northeast.
+shovel
+
+sandy cave
+this is a sand-filled cave whose exit is to the southwest.
+[beautiful jeweled scarab]
+dig in sand1
+ you seem to be digging a hole here.
+dig in sand2
+ the hole is getting deeper, but that's about it.
+dig in sand3
+ you are surrounded by a wall of sand on all sides.
+dig in sand4
+ you can see a scarab here in the sand.
+dig in sand5
+ the hole collapses, smothering you.
+shore
+you are on the east shore of the river. the water here seems somewhat treacherous. a path travels from north to south here, the south end quickly turning around a sharp corner.
+
+aragain falls
+you are at the top of aragain falls, an enormous waterfall with a drop of about 450 feet. the only path here is on the north end.
+down
+ it's a long way...
+on the rainbow
+you are on top of a rainbow i bet you never thought you would walk on a rainbow
+, with a magnificent view of the falls. the rainbow travels east-west here.
+a beautiful rainbow can be seen over the falls and to the west.
+[a solid rainbow spans the falls.]
+wave scepter
+ the structural integrity of the rainbow is severely compromised, leaving you hanging in mid-air, supported only by water vapor. bye.
+
+?
+the frigid river flows under the rainbow.
+atlantis room
+this is an ancient room, long under water. there is an exit to the south and a staircase leading up.
+crystal trident
+
+cave
+this is a tiny cave with entrances west and north, and a staircase leading down.
+
+twisting passage
+this is a winding passage. it seems that there are only exits on the east and north.
+
+mirror room north
+
+you are in a large square room with tall ceilings. on the south wall is an enormous mirror which fills the entire wall. there are exits on the other three sides of the room.
+[unfortunately, the mirror has been destroyed by your recklessness.]
+
+cold passage 
+this is a cold and damp corridor where a long east-west passageway turns into a southward path.
+
+slide room
+this is a small chamber, which appears to have been part of a coal mine. on the south wall of the chamber the letters "granite wall" are etched in the rock. to the east is a long passage, and there is a steep metal slide twisting downward. to the north is a small opening.
+there is no granite wall here.
+the wall isn't granite.
+it only says "granite wall".
+
+you tumble down the slide....
+the obj falls into the slide and is gone.
+
+what is meant by the "granite wall" in the slide room?
+      evidently the ancient zorkers did not have strong truth-in-advertising laws. take nothing for granite.
+mine entrance
+you are standing at the entrance of what might have been a coal mine. the shaft enters the west wall, and there is another exit on the south end of the room.
+
+squeaky room
+you are in a small room. strange squeaky sounds may be heard coming from the passage at the north end. you may also escape to the east.
+
+bat room
+you are in a small room which has doors only to the east and south.
+jade figurine
+bat
+if garlic
+ in the corner of the room on the ceiling is a large vampire bat who is obviously deranged and holding his nose.
+no garlic
+ a large vampire bat, hanging from the ceiling, swoops down at you!
+    fweep!
+    fweep!
+    fweep!
+the bat grabs you by the scruff of your neck and lifts you away....
+take
+ you can't reach him; he's on the ceiling.
+throw
+ the bat ducks as the obj flies by and crashes to the ground.
+shaft room
+this is a large room, in the middle of which is a small shaft descending through the floor into darkness below. to the west and the north are exits from this room. constructed over the top of the shaft is a metal framework to which a heavy iron chain is attached.
+basket at the end of the chain is a basket.
+ from the chain is suspended a basket.
+
+down
+ you wouldn't fit and would die if you could.
+take basket
+ the cage is securely fastened to the iron chain.
+take basket
+ the basket is at the other end of the chain.
+raise basket
+ the basket is raised to the top of the shaft.
+lower basket
+ the basket is lowered to the bottom of the shaft.
+take chain
+ the chain is secure.
+?
+perhaps you should do that to the basket.
+?
+the chain secures a basket within the shaft.
+smelly room
+this is a small non-descript room. however, from the direction of a small descending staircase a foul odor can be detected. to the south is a narrow tunnel.
+
+gas room
+this is a small room which smells strongly of coal gas. there is a short climb up some stairs and a narrow tunnel leading east.
+sapphire-encrusted bracelet
+enter with torch, etc
+ oh dear. it appears that the smell coming from this room was coal gas. i would have thought twice about carrying flaming objects in here.
+** booooooooooom **
+
+how sad for an aspiring adventurer to light a x in a room which reeks of gas. fortunately, there is justice in the world.
+
+?
+ 
+there is too much gas to blow away.
+it smells like coal gas in here.
+coal mine 1
+ this is a non-descript part of a coal mine.
+
+coal mine 2
+ this is a non-descript part of a coal mine.
+
+coal mine 3
+ this is a non-descript part of a coal mine.
+
+coal mine 4
+ this is a non-descript part of a coal mine.
+
+ladder top
+this is a very small room. in the corner is a rickety wooden ladder, leading downward. it might be safe to descend. there is also a staircase leading upward.
+
+ladder bottom
+this is a rather wide room. on one side is the bottom of a narrow wooden ladder. to the west and the south are passages leaving the room.
+
+dead end
+you have come to a dead end in the mine."
+small pile of coal
+
+timber room
+this is a long and narrow passage, which is cluttered with broken timbers. a wide passage comes from the east and turns at the west end of the room into a very narrow passageway. from the west comes a strong draft.
+west
+ you cannot fit through this passage with that load.
+drafty room
+this is a small drafty room in which is the bottom of a long shaft. to the south is a passageway and to the east a very narrow passage. in the shaft can be seen a heavy iron chain.
+basket
+east
+ you cannot fit through this passage with that load.
+?
+ this room is drafty, and the match goes out instantly.
+?
+ a gust of wind blows out your candles!
+
+machine room
+this is a large, cold room whose sole exit is to the north. in one corner there is a machine which is reminiscent of a clothes dryer. on its face is a switch which is labelled "start". the switch does not appear to be manipulable by any human hand unless the fingers are about 1/16 by 1/4 inch
+. on the front of the machine is a large lid, which is closed[open].
+machine
+[large diamond]
+[small piece of vitreous slag]
+take machine
+ it is far too large to carry.
+open lid
+ the lid opens.
+open lid
+ the lid opens, revealing a huge diamond
+.
+close lid
+ the lid closes.
+?
+ it's not clear how to turn it on with your bare hands.
+turn switch
+ you can't turn it with your hands...
+turn switch with screwdriver
+ the machine doesn't seem to want to do anything.
+turn switch with screwdriver if coal inside
+ the machine comes to life figuratively
+ with a dazzling display of colored lights and bizarre noises. after a few moments, the excitement abates.
+
+stone barrow
+you are standing in front of a massive barrow of stone. in the east face is a huge stone door which is open. you cannot see into the dark of the tomb.
+
+inside the barrow
+as you enter the barrow, the door closes inexorably behind you. around you it is dark, but ahead is an enormous cavern, brightly lit. through its center runs a wide stream. spanning the stream is a small wooden footbridge, and beyond a path leads into a dark tunnel. above the bridge, floating in the air, is a large sign. it reads:  all ye who stand before this bridge have completed a great and perilous adventure which has tested your wit and courage. you have mastered the first part of the zork trilogy. those who pass over this bridge must be prepared to undertake an even greater adventure that will severely test your skill and bravery!
+the zork trilogy continues with "zork ii: the wizard of frobozz" and is completed in "zork iii: the dungeon master."
+
+[river god]
+
+[land beyond the chasm
+how do i cross the chasm?
+      there's no bridge.
+how do i build a bridge?
+   1. an interesting idea...
+   2. the timber might be useful.
+   3. but then again, maybe not.
+   4. a valiant attempt, but this is getting you nowhere. 
+why doesn't the magic word "plugh" work in the land beyond the chasm?
+   1. "a hollow voice says fool."
+   2. should nonsense words work anywhere in zork i?
+   3. remember the warning in the introduction. do not let the presence or 
+
+absence of questions, or the lengths of the answers, influence your game. 
+after the meteor strike activates the long-dormant volcano and destroys the 
+
+bridge, how do i get back across the chasm?
+      whew! that might actually be an interesting addition to the game.
+
+
+
+object list
+
+leaflet
+a small leaflet is on the ground.
+read
+
+welcome to zork!
+zork is a game of adventure, danger, and low cunning. in it you will explore
+some of the most amazing territory ever seen by mortals. no computer should be
+without one!
+bird’s nest
+int
+ beside you on the branch is a small bird's nest.
+
+jewel-encrusted egg
+int
+ in the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. the egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. unlike most eggs, this one is hinged and closed with a delicate looking clasp. the egg appears extremely fragile.
+open egg
+ the egg is already open.
+open egg
+ you have neither the tools nor the expertise.
+?
+i doubt you could do that without damaging it.
+open egg
+ the egg is now open, but the clumsiness of your attempt has seriously compromised its esthetic appeal. 
+?
+ not to say that using the obj isn't original too...
+?
+the concept of using a obj is certainly original.
+?
+there is a noticeable crunch from beneath you, and inspection reveals that the egg is lying open, badly damaged.
+?
+your rather indelicate handling of the egg has caused it some damage, although you have succeeded in opening it.
+hatch egg
+ bizarre!
+broken jewel-encrusted egg
+there is a somewhat ruined egg here.
+
+broken canary
+int
+ there is a golden clockwork canary nestled in the egg. it seems to have recently had a bad experience. the mountings for its jewel-like eyes are empty, and its silver beak is crumpled. through a cracked crystal window below its left wing you can see the remains of intricate machinery. it is not clear what result winding it would have, as the mainspring seems sprung.
+wind
+ there is an unpleasant grinding noise from inside the canary.
+canary
+int
+ there is a golden clockwork canary nestled in the egg. it has ruby eyes and a silver beak. through a crystal window below its left wing you can see intricate machinery inside. it appears to have wound down.
+wind
+ the canary chirps blithely, if somewhat tinnily, for a short time.
+wind
+ the canary chirps, slightly off-key, an aria from a forgotten opera. from out of the greenery flies a lovely songbird. it perches on a limb just over your head and opens its beak to sing. as it does so a beautiful brass bauble drops from its mouth, bounces off the top of your head, and lands glimmering in the grass. as the canary winds down, the songbird flies away.
+pile of leaves
+on the ground is a pile of leaves.
+count leaves
+ there are 69,105 leaves here.
+burn leaves
+ the leaves burn.
+burn leaves will holding
+ the leaves burn, and so do you.
+brown sack
+on the table is an elongated brown sack, smelling of hot peppers.
+there is lunch inside
+
+
+clove of garlic
+
+lunch
+a hot pepper sandwich is here.
+smell lunch
+ it smells of hot peppers.
+glass bottle
+a bottle is sitting on the table.
+the glass bottle contains: a quantity of water
+?
+the water spills to the floor and evaporates immediately.
+?
+the water spills to the floor and evaporates.
+?
+the water splashes on the walls and evaporates immediately.
+?
+the water leaks out of the x and evaporates immediately.
+?
+ the bottle is closed.
+?
+ the bottle is now full of water.
+?
+ the bottle hits the far wall and shatters.
+?
+ a brilliant maneuver destroys the bottle.
+
+quantity of water
+take water
+ the water slips through your fingers.
+take water
+ it's in the bottle. perhaps you should take that instead.
+?
+there is now a puddle in the bottom of the x.
+pour
+ the obj is extinguished.
+pour
+ the water spills over the obj, to the floor, and evaporates.
+sword
+int
+ above the trophy case hangs an elvish sword of great antiquity.
+your sword is glowing with a faint blue glow.
+your sword is glowing very brightly.
+your sword has begun to glow very brightly.
+your sword is glowing with a faint blue glow.
+your sword is no longer glowing.
+brass lantern
+int
+ a battery-powered brass lantern is on the trophy case.
+there is a brass lantern battery-powered
+ here.
+?
+ the lamp has smashed into the floor, and the light has gone out.
+turn on
+ a burned-out lamp won't light.
+?
+ the lamp has already burned out.
+the lamp has burned out.
+the lamp is on.
+the lamp is turned off.
+the lamp appears a bit dimmer.
+the lamp is definitely dimmer now.
+the lamp is nearly out.
+rope
+a large coil of rope is lying in the corner.
+
+nasty knife
+on a table is a nasty-looking knife.
+
+painting
+int
+ fortunately, there is still one chance for you to be a vandal, for on the far wall is a painting of unparalleled beauty.
+a painting by a neglected genius is here.
+[there is a worthless piece of canvas here.]
+cut/break/destroy
+ congratulations! unlike the other vandals, who merely stole the artist's masterpieces, you have destroyed one.
+zork owner’s manual
+int
+ loosely attached to a wall is a small piece of paper.
+read
+
+congratulations!
+
+you are the privileged owner of zork i: the great underground empire, a
+self-contained and self-maintaining universe. if used and maintained in
+accordance with normal operating practices for small universes, zork will
+provide many months of trouble-free operation.
+troll 
+a nasty-looking troll, brandishing a bloody axe, blocks all passages out of the room.
+
+[an unconscious troll is sprawled on the floor. all passages out of the room are open.]
+
+a troll is here.
+
+?
+a pathetically babbling troll is here.
+talk to troll
+ the troll isn't much of a conversationalist.
+the troll, angered and humiliated, recovers his weapon. he appears to have an axe to grind with you.
+the troll, disarmed, cowers in terror, pleading for his life in the guttural tongue of the trolls.
+the troll stirs, quickly resuming a fighting stance.
+the troll scratches his head in confusion, then takes the axe.
+you would have to get the x first, and that seems unlikely.
+the troll, who is remarkably coordinated, catches the x
+the troll, who is not overly proud, graciously accepts the gift
+ and eats it hungrily. poor troll, he dies from an internal hemorrhage and his carcass disappears in a sinister black fog.
+ and, being for the moment sated, throws it back. fortunately, the troll has poor control, and the 
+ falls to the floor. he does not look pleased.
+ and not having the most discriminating tastes, gleefully eats it.
+take troll
+ the troll spits in your face, grunting "better luck next time" in a rather barbarous accent.
+the troll laughs at your puny gesture.
+every so often the troll says something, probably uncomplimentary, in his guttural tongue.
+unfortunately, the troll can't hear you.
+
+s323: "the troll swings his axe, but it misses."
+s324: "the troll's axe barely misses your ear."
+s325: "the axe sweeps past as you jump aside."
+s326: "the axe crashes against the rock, throwing sparks!"
+s327: "the flat of the troll's axe hits you delicately on the head, knocking you out."
+s328: "the troll neatly removes your head."
+s329: "the troll's axe stroke cleaves you from the nave to the chops."
+s330: "the troll's axe removes your head."
+s331: "the axe gets you right in the side. ouch!"
+s332: "the flat of the troll's axe skins across your forearm."
+s333: "the troll's swing almost knocks you over as you barely parry in time."
+s334: "the troll swings his axe, and it nicks your arm as you dodge."
+s335: "the troll charges, and his axe slashes you on your x arm."
+s337: "an axe stroke makes a deep wound in your leg."
+s338: "the troll's axe swings down, gashing your shoulder."
+s339: "the troll hits you with a glancing blow, and you are momentarily stunned."
+s340: "the troll swings; the blade turns on your armor but crashes broadside into your head."
+s341: "you stagger back under a hail of axe strokes."
+s342: "the troll's mighty blow drops you to your knees."
+s343: "the axe hits your x and knocks it spinning."
+s345: "the troll swings, you parry, but the force of his blow knocks your x away."
+s347: "the axe knocks your x out of your hand. it falls to the floor."
+s349: "the troll hesitates, fingering his axe."
+s350: "the troll scratches his head ruminatively:  might you be magically protected, he wonders?"
+s351: "conquering his fears, the troll puts you to death."
+bloody axe
+
+burned-out lantern
+the deceased adventurer's useless lantern is here.
+
+skeleton key
+there is a skeleton key here.
+
+leather bag of coins
+an old leather bag, bulging with coins, is here.
+
+rusty knife
+beside the skeleton is a rusty knife.
+
+take knife
+ as you touch the rusty knife, your sword gives a single pulse of blinding blue light.
+attack
+ as the knife approaches its victim, your mind is submerged by an overmastering will. slowly, your hand turns, until the rusty blade is an inch from your neck. the knife seems to sing as it savagely slits your throat.
+cyclops
+a cyclops, who looks prepared to eat horses much less mere adventurers
+, blocks the staircase. from his state of health, and the bloodstains on the walls, you gather that he is not very friendly, though he likes people.
+ [the cyclops is standing in the corner, eyeing you closely. i don't think he likes you very much. he looks extremely hungry, even for a cyclops.]
+[the cyclops, having eaten the hot peppers, appears to be gasping. his enflamed tongue protrudes from his man-sized mouth.]
+[the cyclops is sleeping blissfully at the foot of the stairs.]
+[the cyclops is sleeping like a baby, albeit a very ugly one.]
+[a hungry cyclops is standing at the foot of the stairs.]
+listen to cyclops
+ you can hear his stomach rumbling.
+tie cyclops
+ you cannot tie the cyclops, though he is fit to be tied.
+talk to
+ the cyclops prefers eating to making conversation.
+talk to
+ no use talking to him. he's fast asleep.
+take cyclops
+ the cyclops doesn't take kindly to being grabbed.
+?
+"do you think i'm as stupid as my father was?", he says, dodging.
+?
+ the cyclops shrugs but otherwise ignores your pitiful attempt.
+give lunch
+ the cyclops says "mmm mmm. i love hot peppers! but oh, could i use a drink. perhaps i could drink the blood of that thing."  from the gleam in his eye, it could be surmised that you are "that thing".
+give bottle
+ the cyclops apparently is not thirsty and refuses your generous offer.
+give bottle
+ the cyclops takes the bottle, checks that it's open, and drinks the water. a moment later, he lets out a yawn that nearly blows you over, and then falls fast asleep what did you put in that drink, anyway?
+.
+give cyclops ?
+ the cyclops may be hungry, but there is a limit.
+give cyclops other
+ the cyclops is not so stupid as to eat that!
+odysseus
+ the cyclops, hearing the name of his father's deadly nemesis, flees the room by knocking down the wall on the east of the room.
+ odysseus elsewhere
+ wasn't he a sailor?
+ wake up cyclops
+ the cyclops yawns and stares at the thing that woke him up.
+wait
+ the cyclops seems somewhat agitated.
+wait
+ the cyclops appears to be getting more agitated.
+wait
+ the cyclops is moving about the room, looking for something.
+wait
+ the cyclops was looking for salt and pepper. no doubt they are condiments for his upcoming snack.
+wait
+ the cyclops is moving toward you in an unfriendly manner.
+wait
+ you have two choices: 1. leave  2. become dinner.
+wait
+ the cyclops, tired of all of your games and trickery, grabs you firmly. as he licks his chops, he says "mmm. just like mom used to make 'em." it's nice to be appreciated.
+
+s307: "the cyclops misses, but the backwash almost knocks you over."
+s308: "the cyclops rushes you, but runs into the wall."
+s309: "the cyclops sends you crashing to the floor, unconscious."
+s310: "the cyclops breaks your neck with a massive smash."
+s311: "a quick punch, but it was only a glancing blow."
+s312: "a glancing blow from the cyclops' fist."
+s313: "the monster smashes his huge fist into your chest, breaking several ribs."
+s314: "the cyclops almost knocks the wind out of you with a quick punch."
+s315: "the cyclops lands a punch that knocks the wind out of you."
+s316: "heedless of your weapons, the cyclops tosses you against the rock wall of the room."
+s317: "the cyclops grabs your x, tastes it, and throws it to the ground in disgust."
+s319: "the monster grabs you on the wrist, squeezes, and you drop your x in pain."
+s321: "the cyclops seems unable to decide whether to broil or stew his dinner."
+s322: "the cyclops, no sportsman, dispatches his unconscious victim."
+thief
+
+there is a suspicious-looking individual, holding a large bag, leaning against one wall. he is armed with a deadly stiletto.
+
+the thief is a slippery character with beady eyes that flit back and forth. he carries, along with an unmistakable arrogance, a large bag over his shoulder and a vicious stiletto, whose blade is aimed menacingly in your direction. i'd watch out if i were you.
+someone carrying a large bag is casually leaning against one of the walls here. he does not speak, but it is clear from his aspect that the bag will be taken only over his dead body.
+you feel a light finger-touch, and turning, notice a grinning figure holding a large bag in one hand and a stiletto in the other.
+your opponent, determining discretion to be the better part of valor, decides to terminate this little contretemps. with a rueful nod of his head, he steps backward into the gloom and disappears.
+the holder of the large bag just left, looking disgusted. fortunately, he took nothing.
+a seedy-looking individual with a large bag just wandered through the room. on the way through, he quietly abstracted some valuables from the room and from your possession, mumbling something about "doing unto others before..."
+the thief just left, still carrying his large bag. you may not have noticed that he robbed you blind first.
+//appropriated the valuables in the room.
+
+the thief, finding nothing of value, left disgusted.
+a "lean and hungry" gentleman just wandered through, carrying a large bag. finding nothing of value, he left disgruntled.
+the thief just left, still carrying his large bag. you may not have noticed that he robbed you blind first."
+the thief, finding nothing of value, left disgusted.
+the thief seems to have left you in the dark.
+you hear, off in the distance, someone saying "my, i wonder what this fine x is doing here."
+the thief is a strong, silent type.
+the thief, being temporarily incapacitated, is unable to acknowledge your greeting with his usual graciousness.
+you evidently frightened the robber, though you didn't hit him. he flees x, but the contents of his bag fall on the floor."
+throw knife
+ you missed. the thief makes no attempt to take the knife, though it would be a fine addition to the collection in his bag. he does seem angered by your attempt.
+your proposed victim suddenly recovers consciousness.
+give object
+ the thief is taken aback by your unexpected generosity, but accepts the x and stops to admire its beauty.
+the thief places the x in his bag and thanks you politely.
+take
+ once you got him, what would you do with him?
+ listen to
+ the thief says nothing, as you have not been formally introduced."
+the robber, somewhat surprised at this turn of events, nimbly retrieves his  stiletto.
+the robber revives, briefly feigning continued unconsciousness, and, when he sees his moment, scrambles away from you.
+the robber, rummaging through his bag, dropped a few items he found valueless.
+you suddenly notice that the obj vanished.
+
+you hear a scream of anguish as you violate the robber's hideaway. using passages unknown to you, he rushes to its defense.
+the thief gestures mysteriously, and the treasures in the room suddenly vanish.
+as the thief dies, the power of his magic decreases, and his treasures reappear:
+the chalice is now safe to take.
+?
+his booty remains.
+
+s352: "the thief stabs nonchalantly with his stiletto and misses."
+s353: "you dodge as the thief comes in low."
+s354: "you parry a lightning thrust, and the thief salutes you with a grim nod."
+s355: "the thief tries to sneak past your guard, but you twist away."
+s356: "shifting in the midst of a thrust, the thief knocks you unconscious with the haft of his stiletto."
+s357: "the thief knocks you out."
+s358: "finishing you off, the thief inserts his blade into your heart."
+s359: "the thief comes in from the side, feints, and inserts the blade into your ribs."
+s360: "the thief bows formally, raises his stiletto, and with a wry grin, ends the battle and your life."
+s361: "a quick thrust pinks your left arm, and blood starts to trickle down."
+s362: "the thief draws blood, raking his stiletto across your arm."
+s363: "the stiletto flashes faster than you can follow, and blood wells from
+your leg."
+s364: "the thief slowly approaches, strikes like a snake, and leaves you wounded."
+s365: "the thief strikes like a snake! the resulting wound is serious."
+s366: "the thief stabs a deep cut in your upper arm."
+s367: "the stiletto touches your forehead, and the blood obscures your vision."
+s368: "the thief strikes at your wrist, and suddenly your grip is slippery with blood."
+s369: "the butt of his stiletto cracks you on the skull, and you stagger back."
+s370: "the thief rams the haft of his blade into your stomach, leaving you out
+of breath."
+s371: "the thief attacks, and you fall back desperately."
+s372: "a long, theatrical slash. you catch it on your "
+s373: ", but the thief twists his knife, and the "
+s374: " goes flying."
+s375: "the thief neatly flips your "
+s376: " out of your hands, and it drops to the floor."
+s377: "you parry a low thrust, and your "
+s378: " slips out of your hand."
+s379: "the thief, a man of superior breeding, pauses for a moment to consider the propriety of finishing you off."
+s380: "the thief amuses himself by searching your pockets."
+s381: "the thief entertains himself by rifling your pack."
+s382: "the thief, forgetting his essentially genteel upbringing, cuts your throat."
+s383: "the thief, a pragmatist, dispatches you as a threat to his livelihood."
+s384: "coins"
+s385: "jewels"
+
+there is a suspicious-looking individual, holding a bag, leaning against one wall. he is armed with a vicious-looking stiletto.
+there is a suspicious-looking individual lying unconscious on the ground.
+chalice
+there is a silver chalice, intricately engraved, here.
+take chalice
+ you'd be stabbed in the back first.
+?
+ you can't. it's not a very good chalice, is it? 
+
+thief’s sack
+sadly for you, the robber collapsed on top of the bag. trying to take it would wake him.
+the bag will be taken over his dead body.
+it would be a good trick.
+getting close enough would be a good trick.
+the bag is underneath the thief, so one can't say what, if anything, is inside.
+stiletto
+
+beautiful brass bauble
+
+torch
+sitting on the pedestal is a flaming torch, made of ivory.
+extinguish torch
+ you nearly burn your hand trying to extinguish the flame.
+burn
+ the torch is burning.
+pour water??
+ the water evaporates before it gets close.
+brass bell / red hot bell
+on the ground is a red hot bell.
+take
+ the bell is very hot and cannot be taken.
+?
+ the bell is too hot to touch.
+?
+the heat from the bell is too intense.
+ring bell
+ the bell is too hot to reach.
+pour water
+ the water cools the bell and is evaporated.
+wait
+ the bell appears to have cooled down.
+gold coffin
+the solid-gold coffin used for the burial of ramses ii is here.
+
+sceptre
+an ornamented sceptre, tapering to a sharp point, is here.
+wave
+ a dazzling display of color briefly emanates from the sceptre.
+wave
+ suddenly, the rainbow appears to become solid and, i venture, walkable i think the giveaway was the stairs and bannister
+. a shimmering pot of gold appears at the end of the rainbow.
+wave
+ the rainbow seems to have become somewhat run-of-the-mill.
+pair of candles
+on the two ends of the altar are burning candles.
+the candles grow shorter.
+the candles are becoming quite short.
+the candles won't last long now.
+light
+ alas, there's not much left of the candles. certainly not enough to burn.
+the candles are already lit.
+the candles are lit.
+the candles are not lighted.
+the candles are burning.
+the candles are out.
+you realize, just in time, that the candles are already lighted.
+light with torch
+ the heat from the torch is so intense that the candles are vaporized.
+count
+ let's see, how many objects in a pair? don't tell me, i'll get it.
+extinguish
+ the flame is extinguished."
+black book
+on the altar is a large black book, open to page 569
+read
+
+commandment #12592
+
+oh ye who go about saying unto each:  "hello sailor":
+dost thou know the magnitude of thy sin before the gods?
+yea, verily, thou shalt be ground between two stones.
+shall the angry gods cast thy body into the whirlpool?
+surely, thy eye shall be put out with a sharp stick!
+even unto the ends of the earth shalt thou wander and
+unto the land of the dead shalt thou be sent at last.
+surely thou shalt repent of thy cunning.
+
+hello sailor
+ nothing happens here.
+open book
+ the book is already open to page 569.
+close book
+ as hard as you try, the book cannot be closed.
+?
+beside page 569, there is only one other page with any legible printing on it. most of it is unreadable, but the subject seems to be the banishment of evil. apparently, certain noises, lights, and prayers are efficacious in this regard.
+platinum bar
+on the ground is a large platinum bar.
+
+tour guidebook
+some guidebooks entitled "flood control dam #3" are on the reception desk.
+read
+
+flood control dam #3
+
+fcd#3 was constructed in year 783 of the great underground empire to harness
+the mighty frigid river. this work was supported by a grant of 37 million
+zorkmids from your omnipotent local tyrant lord dimwit flathead the excessive.
+this impressive structure is composed of 370,000 cubic feet of concrete, is 256
+feet tall at the center, and 193 feet wide at the top. the lake created behind
+the dam has a volume of 1.7 billion cubic feet, an area of 12 million square
+feet, and a shore line of 36 thousand feet.
+
+we will now point out some of the more interesting features of fcd#3 as we
+conduct you on a guided tour of the facilities:
+        1
+ you start your tour here in the dam lobby. you will notice on your
+right that....
+matchbook
+there is a matchbook whose cover says "visit beautiful fcd#3" here.
+read
+
+close cover before striking
+
+
+you too can make big money in the exciting field of paper shuffling!
+
+mr. anderson of muddle, mass. says: "before i took this course i was a lowly
+bit twiddler. now with what i learned at gue tech i feel really important and
+can obfuscate and confuse with the best."
+
+dr. blank had this to say: "ten short days ago all i could look forward to was
+a dead-end job as a doctor. now i have a promising future and make really big
+zorkmids."
+
+gue tech can't promise these fantastic results to everyone. but when you earn
+your degree from gue tech, your future will be brighter.
+count matches
+ you have 5 matches.
+
+i'm afraid that you have run out of matches.
+one of the matches starts to burn.
+the matchbook isn't very interesting, except for what's written on it.
+wrench
+
+tube
+there is an object which looks like a tube of toothpaste here.
+read tube
+
+---> frobozz magic gunk company <---
+   all-purpose gunk
+open tube
+ opening the tube reveals a viscous material.
+squeeze tube
+ the viscous material oozes into your hand.
+squeeze tube
+ the tube is apparently empty.
+squeeze tube
+ the tube is closed.
+put in tube
+ the tube refuses to accept anything.
+screwdriver
+
+gunk
+patch leak with gunk
+ by some miracle of zorkian technology, you have managed to stop the leak in the dam.
+?
+ the all-purpose gunk isn't a lubricant.
+?
+with a x? do you know how big this dam is? you could only stop a tiny leak with that.
+pile of plastic / magic boat / punctured boat
+there is a folded pile of plastic here which has a small valve attached.
+read the label for the boat's instructions.
+?
+well done. the boat is repaired.
+if scepter, nasty knife, sword, rusty knife, bloody axe, stiletto onto boat
+
+it seems that the obj didn't agree with the boat, as evidenced by the loud hissing noise issuing there from. with a pathetic sputter, the boat deflates, leaving you without.
+oops! something sharp seems to have slipped and punctured the boat. the boat deflates to the sounds of hissing, sputtering, and cursing.
+brush
+ well, you seem to have been brushing your teeth with some sort of glue. as a result, your mouth gets glued together with your nose
+ and you die of respiratory failure.
+crystal skull
+lying in one corner of the room is a beautifully carved crystal skull. it appears to be grinning at you rather nastily.
+
+pot of gold
+at the end of the rainbow is a pot of gold.
+
+shovel
+dig
+ the ground is too hard for digging here
+beautiful jeweled scarab
+
+crystal trident
+on the shore lies poseidon's own crystal trident.
+
+hand-held air pump
+
+trunk of jewels
+int
+ lying half buried in the mud is an old trunk, bulging with jewels.
+there is an old trunk here, bulging with assorted jewels.
+inflate plastic with pump
+ the boat inflates and appears seaworthy. [a tan label is lying inside the boat.]
+inflate plastic with pump
+ the boat must be on the ground to be inflated.
+inflate plastic
+ you don't have enough lung power to inflate it.
+inflate plastic
+ with a x? surely you jest!
+inflate
+ inflating it further would probably burst it.
+deflate
+ you can't deflate the boat while you're in it.
+deflate
+ the boat must be on the ground to be deflated.
+deflate
+ the boat deflates.
+tan label
+read
+
+   !!!!  frobozz magic boat company  !!!!
+
+hello, sailor!
+
+instructions for use:
+
+   to get into a body of water, say "launch".
+   to get to shore, say "land" or the direction in which you want to maneuver
+the boat.
+
+warranty:
+
+  this boat is guaranteed against all defects for a period of 76 milliseconds
+from date of purchase or until first used, whichever comes first.
+
+warning:
+   this boat is made of thin plastic.
+   good luck!
+red buoy
+you notice something funny about the feel of the buoy.
+?
+you notice something funny about the feel of the buoy.
+large emerald
+
+jade figurine
+there is an exquisite jade figurine here.
+
+sapphire-encrusted bracelet
+
+small pile of coal
+
+large diamond
+there is an enormous diamond perfectly cut
+ here.
+
+small piece of vitreous slag
+take
+ the slag was rather insubstantial, and crumbles into dust at your touch.
+ancient map
+in the trophy case is an ancient parchment which appears to be a map.
+read
+
+the map shows a forest with three clearings. the largest clearing contains a house. three paths leave the large clearing. one of these paths, leading southwest, is marked "to stone barrow".
+[river god]
+what will placate the river god?
+   1. what have you tried to throw into the river?
+   2. there is no river god. anything thrown in is lost forever.
+
+which object is best for casting images?
+   1. what are you talking about?
+inside the barrow
+you are inside an ancient barrow hidden deep within a dark forest. the barrow opens into a narrow tunnel at its southern end. you can see a faint glow at the far end.
+lamp
+sword
+leave
+ you may not recall, but when you entered, the door of the barrow shut behind you. there is no way out.
+narrow tunnel
+you are standing at the southern end of a narrow tunnel where it opens into a wide cavern. the cavern is dimly illuminated by phosphorescent mosses clinging to its high ceiling. a deep ravine winds through the cavern, with a small stream at the bottom. the walls of the ravine are steep and crumbly. a foot bridge crosses the ravine to the south.
+down
+ as you start down, you slip on the crumbling rocks and pull back, narrowly averting a fatal fall.
+take moss
+ some of the moss rubs off on you, but it stops glowing very quickly  once plucked from its environment.
+foot bridge
+you are standing on a crude but sturdy wooden foot bridge crossing a deep ravine. the path runs north and south from here.
+down
+ the drop would be fatal.
+great cavern
+this is the center of the great cavern, carved out of the limestone. stalactites and stalagmites of many sizes are everywhere. the room glows with dim light provided by phosphorescent moss, and weird shadows move all around you. a narrow path winds southwest among the stalagmites, and another leads northeast.
+take moss
+ some of the moss rubs off on you, but it stops glowing very quickly  once plucked from its environment.
+take stalactities
+ the only ones you can reach are too large to successfully break off.
+shallow ford
+you are at the southern edge of a great cavern. to the south across a shallow ford is a dark tunnel which looks like it was once enlarged and smoothed. to the north a narrow path winds among stalagmites. dim light illuminates the cavern.
+
+dark tunnel
+this is a dark tunnel with dim light to the northeast. the tunnel is smooth but dusty and filled with twigs and leaves, debris which becomes deeper as the tunnel branches into a wide corridor leading southwest and a narrower one leading southeast.
+
+north end of garden
+this is the northern end of a formal garden. hedges hide the cavern walls, and if you don't look up, the illusion is of a cloudy day outside. the light comes from a large growth of glowing mosses on the roof of the cave. a break in the hedge is almost overgrown to the north. a carefully manicured path leads south. in the center of a rosebed is a small open structure, painted white. it appears to be a gazebo.
+[there is a beautiful unicorn here cropping grass.]
+[a unicorn is peacefully cropping grass at the north end of the garden. there is something hanging around its neck.]
+[a unicorn is cropping grass on the other side of the room. a gold key hangs from a ribbon around its neck.]
+[there is a beautiful unicorn eating roses here. around his neck is a red satin ribbon on which is strung a tiny key.]
+take unicorn
+ the unicorn, unsurprised by this evidence that you are indeed the uncouth sort of vagabond it suspected you were, melts into the hedges and is gone.
+?
+the unicorn shies away as you approach.
+?
+the unicorn shies away as you approach for a closer look, but you do notice a tiny gold key hanging from a red satin ribbon looped around the animal's neck.
+?
+the unicorn listens distractedly, then goes back to cropping grass.
+?
+the unicorn is way up at the north end of the garden.
+?
+the unicorn is a mythical beast.
+?
+the unicorn bounds lightly away.
+there is a large, white animal partly hidden behind some trees.
+you catch a glimpse of something white between two hedges.
+take rose
+ you prick your finger trying to take a rose, and jump back annoyed. the rose almost seemed to move its thorns into your path.
+gazebo
+this is a gazebo in the midst of a formal garden. it is cool and restful here. a tea table adorns the center of the gazebo.
+sitting on the table is:
+matchbook
+china teapot
+place mat
+newspaper
+letter opener
+
+formal garden
+this is the middle part of a formal garden. hedges hide the cavern walls and a dim illumination comes from mosses far above. the path is of small crushed white stones. it winds among bushes and flower beds from south to north. to the north a small structure can be seen. to the south are peculiarly shaped bushes. there is a small gap in the hedges to the west.
+
+topiary
+this is the southern end of a formal garden. hedges hide the cavern walls and mosses provide dim illumination. fantastically shaped hedges and bushes are arrayed with geometric precision. they have not recently been clipped, but you can discern creatures in the shapes of the bushes: there is a dragon, a unicorn, a great serpent, a huge misshapen dog, and several human figures. on the west side of the garden the path leads through a rose arbor into a tunnel.
+look at hedges
+ the hedges are shaped like various animals: dogs, serpents, dragons, and the like, and they are vaguely troubling to look at.
+wait
+ you look around, and strangely, the topiary animals seem to have changed position slightly.
+wait
+ the topiary animals seem to close in on you. you turn and they are very close. they seem to be leering at you.
+wait
+ the topiary animals attack! you are crushed by their branches and clawed by their thorns.
+path near stream
+the path follows the south edge of a deep ravine and heads northeast. a tunnel heads southwest, narrowing to a rather tight crawl. a faint whirring sound can be heard in that direction. on the east is a ruined archway choked with vegetation.
+down
+ the ravine is extremely deep. you would never make it.
+carousel room
+you are in a large circular room whose high ceiling is lost in gloom. eight identical passages leave the room.
+a loud whirring sound comes from all around, and you feel sort of disoriented in here.
+[dented steel box] there is a dented steel box here.
+ [fancy violin]
+feeling dizzy, you pick a direction at random.
+you're not sure which direction is which. this room is very disorienting.
+
+open box
+ opening the box reveals a fancy violin.
+riddle room
+this is a room which is bare on all sides. there is an exit down in the northwest corner of the room. to the east is a great closed[open] door made of stone. above the stone, the following words are written: "no man shall pass this door without solving this riddle:
+
+  what is tall as a house,
+    round as a cup,
+      and all the king's horses
+        can't draw it up?
+
+stone door
+answer wrong
+ a hollow laugh seems to come from the stone door.
+answer “well”
+ there is a deafening clap of thunder and the stone door quietly swings open to reveal a passageway beyond.
+open door
+ the door can only be opened by answering the riddle.
+?
+not a chance. the door weighs many tons.
+pearl room
+this is a former broom closet. the exits are to the east and west.
+pearl necklace
+
+circular room
+this is a damp circular room, whose walls are made of brick and mortar. the roof of this room is not visible, but there appear to be some etchings on the walls. there is a passageway to the west.
+wooden bucket there is a wooden bucket here, 3 feet in diameter and 3 feet high.
+
+up
+ the walls cannot be climbed.
+climb well
+ you can't climb the well.
+burn bucket
+ the bucket is fireproof, and won't burn.
+?
+you'll need to get in the bucket to reach it.
+pour water
+ the bucket swiftly rises up, and is gone.
+pour water
+ there is now a puddle in the bottom of the wooden bucket.
+                       the bucket rises and comes to a stop.
+read etchings
+
+       o  b  o
+
+       a  g  i
+        e   l
+
+       m  p  a
+top of well
+you are at the top of the well. well done. there are etchings on the side of the well. there is a small crack across the floor at the entrance to a room on the east, but it can be crossed easily.
+down
+ it's a long way down!
+wait too long
+ the last of the water evaporates, and the bucket descends.
+the bucket descends and comes to a stop.
+read etchings
+
+       o  b  o
+   r             z
+f   m  a  g  i  c   z
+c    w  e   l  l    y
+   o             n
+       m  p  a
+look at crack
+ it is a small crack as advertised
+ with no redeeming value.
+
+throw coin in well?
+ a whispering voice replies: "water makes the bucket go." unfortunately, wishing makes the coin go....
+the obj is now sitting at the bottom of the well.
+tea room
+this is a small room containing a large oblong table, no doubt set for afternoon tea. it is clear from the objects on the table that the users were indeed mad. in the eastern corner of the room is a small hole no more than four inches high
+. there are passageways leading away to the west and the northwest.
+large oblong table sitting on the large oblong table is:
+
+cake frosted with green letters
+cake frosted with red letters
+cake frosted with orange letters
+cake frosted with blue letters
+east
+ only a mouse could get in there.
+
+the hole is very small. you could never enter it.
+you can't see what's beyond the hole from here.
+it doesn't fit through the hole.
+
+nonsense questions for alice area
+how do i catch the magic mouse?
+   1. have you tried using the green cheese?
+   2. there is no mouse. sorry.
+
+can the mad hatter be cured?
+   1. there is no cure for advanced mercury poisoning.
+   2. what mad hatter?
+posts room
+this is an enormous room, in the center of which are four wooden posts delineating a rectangular area, above which is what appears to be a wooden roof. in fact, all objects in this room appear to be abnormally large. to the east is a passageway. there are large gaping chasms to the west and northwest.
+group of wooden posts
+northwest/west
+ a great chasm blocks your way.
+east if flask opened
+ noxious vapors prevent your entry.
+east?
+ the entrance is blocked by sticky orange rubble. probably some careless adventurer was playing with blasting cakes.
+take object dropped in tea room
+ the object is now much larger than you are. you have no hope of taking it.
+pool room
+this is a large room, one half of which is depressed. salty water flows from a large leak in the ceiling. the only exit is to the west.
+glass flask
+pool of tears the leak has submerged the depressed area in a pool of tears. there is a hazy something at the deepest part of the pool.
+
+[package of candy]
+enter pool
+ you enter the pool, thrash around for a good while, and then drown. sad, but true.
+patch leak
+ the leak is too high above you to reach.
+drink pool
+ the water is extremely salty. 
+?
+ you'd probably have to enter the pool to see what's below the surface.
+
+west of house
+you are standing in an open field west of a white house, with a boarded front door.
+there is a small mailbox here.
+open mailbox
+opening the small mailbox reveals a leaflet.
+read leaflet
+(taken)
+"welcome to zork!
+zork is a game of adventure, danger, and low cunning. in it you will explore some of the most amazing territory ever seen by mortals. no computer should be without one!"
+drop leaflet
+dropped.
+go south
+south of house
+you are facing the south side of a white house. there is no door here, and all the windows are boarded.
+go east
+behind house
+you are behind the white house. a path leads into the forest to the east. in one corner of the house there is a small window which is slightly ajar.
+open window
+with great effort, you open the window far enough to allow entry.
+enter house
+kitchen
+you are in the kitchen of the white house. a table seems to have been used recently for the preparation of food. a passage leads to the west and a dark staircase can be seen leading upward. a dark chimney leads down and to the east is a small window which is open.
+on the table is an elongated brown sack, smelling of hot peppers.
+a bottle is sitting on the table.
+the glass bottle contains:
+  a quantity of water
+go west
+living room
+you are in the living room. there is a doorway to the east, a wooden door with strange gothic lettering to the west, which appears to be nailed shut, a trophy case, and a large oriental rug in the center of the room.
+above the trophy case hangs an elvish sword of great antiquity.
+a battery-powered brass lantern is on the trophy case.
+take lamp
+taken.
+move rug
+with a great effort, the rug is moved to one side of the room, revealing the dusty cover of a closed trap door.
+open trap door
+the door reluctantly opens to reveal a rickety staircase descending into darkness.
+turn on lamp
+the brass lantern is now on.
+go down
+the trap door crashes shut, and you hear someone barring it.
+cellar
+you are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. on the west is the bottom of a steep metal ramp which is unclimbable.
+go south
+east of chasm
+you are on the east edge of a chasm, the bottom of which cannot be seen. a narrow passage goes north, and the path you are on continues to the east.
+go east
+gallery
+this is an art gallery. most of the paintings have been stolen by vandals with exceptional taste. the vandals left through either the north or west exits.
+fortunately, there is still one chance for you to be a vandal, for on the far wall is a painting of unparalleled beauty.
+take painting
+taken.
+go north
+studio
+this appears to have been an artist's studio. the walls and floors are splattered with paints of 69 different colors. strangely enough, nothing of value is hanging here. at the south end of the room is an open door (also covered with paint). a dark and narrow chimney leads up from a fireplace; although you might be able to get up it, it seems unlikely you could get back down.
+loosely attached to a wall is a small piece of paper.
+go up chimney
+kitchen
+on the table is an elongated brown sack, smelling of hot peppers.
+a bottle is sitting on the table.
+the glass bottle contains:
+  a quantity of water
+go up
+attic
+this is the attic. the only exit is a stairway leading down.
+a large coil of rope is lying in the corner.
+on a table is a nasty-looking knife.
+take knife
+taken.
+take rope
+taken.
+go down
+kitchen
+on the table is an elongated brown sack, smelling of hot peppers.
+a bottle is sitting on the table.
+the glass bottle contains:
+  a quantity of water
+go west
+living room
+above the trophy case hangs an elvish sword of great antiquity.
+open case
+opened.
+put painting inside case
+done.
+drop knife
+dropped.
+take sword
+taken.
+open trap door
+the door reluctantly opens to reveal a rickety staircase descending into darkness.
+go down
+the trap door crashes shut, and you hear someone barring it.
+cellar
+your sword is glowing with a faint blue glow.
+go north
+the troll room
+this is a small room with passages to the east and south and a forbidding hole leading west. bloodstains and deep scratches (perhaps made by an axe) mar the walls.
+a nasty-looking troll, brandishing a bloody axe, blocks all passages out of the room.
+your sword has begun to glow very brightly.
+the troll's mighty blow drops you to your knees.
+kill troll with sword
+you are still recovering from that last blow, so your attack is ineffective.
+the troll's axe barely misses your ear.
+kill troll with sword
+clang! crash! the troll parries.
+the troll's axe barely misses your ear.
+kill troll with sword
+the troll is confused and can't fight back.
+the troll slowly regains his feet.
+kill troll with sword
+the troll is knocked out!
+kill troll with sword
+the unarmed troll cannot defend himself: he dies.
+almost as soon as the troll breathes his last breath, a cloud of sinister black fog envelops him, and when the fog lifts, the carcass has disappeared.
+your sword is no longer glowing.
+drop sword
+dropped.
+go east
+east-west passage
+this is a narrow east-west passageway. there is a narrow stairway leading down at the north end of the room.
+go east
+round room
+this is a circular stone room with passages in all directions. several of them have unfortunately been blocked by cave-ins.
+go southeast
+engravings cave
+you have entered a low cave with passages leading northwest and east.
+there are old engravings on the walls here.
+go east
+dome room
+you are at the periphery of a large dome, which forms the ceiling of another room below. protecting you from a precipitous drop is a wooden railing which circles the dome.
+tie rope to railing
+the rope drops over the side and comes within ten feet of the floor.
+go down
+torch room
+this is a large room with a prominent doorway leading to a down staircase. above you is a large dome. up around the edge of the dome (20 feet up) is a wooden railing. in the center of the room sits a white marble pedestal.
+a piece of rope descends from the railing above, ending some five feet above your head.
+sitting on the pedestal is a flaming torch, made of ivory.
+go south
+temple
+this is the north end of a large temple. on the east wall is an ancient inscription, probably a prayer in a long-forgotten language. below the prayer is a staircase leading down. the west wall is solid granite. the exit to the north end of the room is through huge marble pillars.
+there is a brass bell here.
+go east
+egyptian room
+this is a room which looks like an egyptian tomb. there is an ascending staircase to the west.
+the solid-gold coffin used for the burial of ramses ii is here.
+take coffin
+taken.
+go west
+temple
+there is a brass bell here.
+go south
+altar
+this is the south end of a large temple. in front of you is what appears to be an altar. in one corner is a small hole in the floor which leads into darkness. you probably could not get back up it.
+on the two ends of the altar are burning candles.
+on the altar is a large black book, open to page 569.
+pray
+forest
+this is a forest, with trees in all directions. to the east, there appears to be sunlight.
+turn off lamp
+the brass lantern is now off.
+go south
+forest
+this is a dimly lit forest, with large trees all around.
+go north
+clearing
+you are in a small clearing in a well marked forest path that extends to the east and west.
+go east
+canyon view
+you are at the top of the great canyon on its west wall. from here there is a marvelous view of the canyon and parts of the frigid river upstream. across the canyon, the walls of the white cliffs join the mighty ramparts of the flathead mountains to the east. following the canyon upstream to the north, aragain falls may be seen, complete with rainbow. the mighty frigid river flows out from a great dark cavern. to the west and south can be seen an immense forest, stretching for miles around. a path leads northwest. it is possible to climb down into the canyon from here.
+go down
+rocky ledge
+you are on a ledge about halfway up the wall of the river canyon. you can see from here that the main flow from aragain falls twists along a passage which it is impossible for you to enter. below you is the canyon bottom. above you is more cliff, which appears climbable.
+go down
+canyon bottom
+you are beneath the walls of the river canyon which may be climbable here. the lesser part of the runoff of aragain falls flows by below. to the north is a narrow path.
+go north
+end of rainbow
+you are on a small, rocky beach on the continuation of the frigid river past the falls. the beach is narrow due to the presence of the white cliffs. the river canyon opens here and sunlight shines in from above. a rainbow crosses over the falls to the east and a narrow path continues to the southwest.
+drop coffin
+dropped.
+open coffin
+the gold coffin opens.
+a sceptre, possibly that of ancient egypt itself, is in the coffin. the sceptre is ornamented with colored enamel, and tapers to a sharp point.
+take sceptre
+taken.
+wave sceptre
+suddenly, the rainbow appears to become solid and, i venture, walkable (i think the giveaway was the stairs and bannister).
+a shimmering pot of gold appears at the end of the rainbow.
+take gold
+taken.
+take coffin
+taken.
+go southwest
+canyon bottom
+go up
+rocky ledge
+go up
+canyon view
+go northwest
+clearing
+go west
+behind house
+enter house
+kitchen
+on the table is an elongated brown sack, smelling of hot peppers.
+a bottle is sitting on the table.
+the glass bottle contains:
+  a quantity of water
+open bag
+opening the brown sack reveals a lunch, and a clove of garlic.
+take garlic
+taken.
+go west
+living room
+there is a nasty knife here.
+your collection of treasures consists of:
+    a painting
+put coffin in case
+done.
+put gold in case
+done.
+put sceptre in case
+done.
+open trap door
+the door reluctantly opens to reveal a rickety staircase descending into darkness.
+turn on lamp
+the brass lantern is now on.
+go down
+cellar
+go north
+the troll room
+there is a sword here.
+there is a bloody axe here.
+go east
+east-west passage
+go north
+chasm
+a chasm runs southwest to northeast and the path follows it. you are on the south side of the chasm, where a crack opens into a passage.
+go northeast
+reservoir south
+you are in a long room on the south shore of a large lake, far too deep and wide for crossing.
+there is a path along the stream to the east or west, a steep pathway climbing southwest along the edge of a chasm, and a path leading into a canyon to the southeast.
+go east
+dam
+you are standing on the top of the flood control dam #3, which was quite a tourist attraction in times far distant. there are paths to the north, south, and west, and a scramble down.
+the sluice gates on the dam are closed. behind the dam, there can be seen a wide reservoir. water is pouring over the top of the now abandoned dam.
+there is a control panel here, on which a large metal bolt is mounted. directly above the bolt is a small green plastic bubble.
+go north
+dam lobby
+this room appears to have been the waiting room for groups touring the dam. there are open doorways here to the north and east marked "private", and there is a path leading south over the top of the dam.
+some guidebooks entitled "flood control dam #3" are on the reception desk.
+there is a matchbook whose cover says "visit beautiful fcd#3" here.
+take matches
+taken.
+go north
+maintenance room
+this is what appears to have been the maintenance room for flood control dam #3. apparently, this room has been ransacked recently, for most of the valuable equipment is gone. on the wall in front of you is a group of buttons colored blue, yellow, brown, and red. there are doorways to the west and south.
+there is a group of tool chests here.
+there is a wrench here.
+there is an object which looks like a tube of toothpaste here.
+there is a screwdriver here.
+take wrench
+taken.
+take screwdriver
+taken.
+push yellow button
+click.
+go south
+dam lobby
+some guidebooks entitled "flood control dam #3" are on the reception desk.
+go south
+dam
+you are standing on the top of the flood control dam #3, which was quite a tourist attraction in times far distant. there are paths to the north, south, and west, and a scramble down.
+the sluice gates on the dam are closed. behind the dam, there can be seen a wide reservoir. water is pouring over the top of the now abandoned dam.
+there is a control panel here, on which a large metal bolt is mounted. directly above the bolt is a small green plastic bubble which is glowing serenely.
+turn bolt with wrench
+the sluice gates open and water pours through the dam.
+drop wrench
+dropped.
+go south
+deep canyon
+you are on the south edge of a deep canyon. passages lead off to the east, northwest and southwest. a stairway leads down. you can hear a loud roaring sound, like that of rushing water, from below.
+go down
+loud room
+this is a large room with a ceiling which cannot be detected from the ground. there is a narrow passage from east to west and a stone stairway leading upward. the room is deafeningly loud with an undetermined rushing sound. the sound seems to reverberate from all of the walls, making it difficult even to think.
+on the ground is a large platinum bar.
+it is unbearably loud here, with an ear-splitting roar seeming to come from all around you. there is a pounding in your head which won't stop. with a tremendous effort, you scramble out of the room.
+round room
+go southeast
+engravings cave
+there are old engravings on the walls here.
+go east
+dome room
+go down
+torch room
+sitting on the pedestal is a flaming torch, made of ivory.
+take torch
+taken.
+turn off lamp
+the brass lantern is now off.
+go south
+temple
+there is a brass bell here.
+take bell
+taken.
+go south
+altar
+on the two ends of the altar are burning candles.
+on the altar is a large black book, open to page 569.
+take candles
+taken.
+take book
+taken.
+go down
+cave
+this is a tiny cave with entrances west and north, and a dark, forbidding staircase leading down.
+go down
+entrance to hades
+you are outside a large gateway, on which is inscribed
+  abandon every hope all ye who enter here!
+the gate is open; through it you can see a desolation, with a pile of mangled bodies in one corner. thousands of voices, lamenting some hideous fate, can be heard.
+the way through the gate is barred by evil spirits, who jeer at your attempts to pass.
+ring bell
+the bell suddenly becomes red hot and falls to the ground. the wraiths, as if paralyzed, stop their jeering and slowly turn to face you. on their ashen faces, the expression of a long-forgotten terror takes shape.
+in your confusion, the candles drop to the ground (and they are out).
+take candles
+taken.
+light match
+one of the matches starts to burn.
+light candles with match
+the candles are lit.
+the flames flicker wildly and appear to dance. the earth beneath your feet trembles, and your legs nearly buckle beneath you. the spirits cower at your unearthly power.
+the match has gone out.
+read book
+each word of the prayer reverberates through the hall in a deafening confusion. as the last word fades, a voice, loud and commanding, speaks: "begone, fiends!" a heart-stopping scream fills the cavern, and the spirits, sensing a greater power, flee through the walls.
+drop book
+dropped.
+go south
+land of the dead
+you have entered the land of the living dead. thousands of lost souls can be heard weeping and moaning. in the corner are stacked the remains of dozens of previous adventurers less fortunate than yourself. a passage exits to the north.
+lying in one corner of the room is a beautifully carved crystal skull. it appears to be grinning at you rather nastily.
+take skull
+taken.
+go north
+entrance to hades
+there is a black book here.
+on the ground is a red hot bell.
+go up
+cave
+a gust of wind blows out your candles!
+go north
+mirror room
+you are in a large square room with tall ceilings. on the south wall is an enormous mirror which fills the entire wall. there are exits on the other three sides of the room.
+rub mirror
+there is a rumble from deep within the earth and the room shakes.
+go north
+cold passage
+this is a cold and damp corridor where a long east-west passageway turns into a southward path.
+go west
+slide room
+this is a small chamber, which appears to have been part of a coal mine. on the south wall of the chamber the letters "granite wall" are etched in the rock. to the east is a long passage, and there is a steep metal slide twisting downward. to the north is a small opening.
+go north
+mine entrance
+you are standing at the entrance of what might have been a coal mine. the shaft enters the west wall, and there is another exit on the south end of the room.
+go west
+squeaky room
+you are in a small room. strange squeaky sounds may be heard coming from the passage at the north end. you may also escape to the east.
+inventory
+you are carrying:
+  a crystal skull
+  a pair of candles
+  a torch (providing light)
+  a screwdriver
+  a matchbook
+  a clove of garlic
+  a brass lantern
+go north
+bat room
+you are in a small room which has doors only to the east and south.
+in the corner of the room on the ceiling is a large vampire bat who is obviously deranged and holding his nose.
+there is an exquisite jade figurine here.
+go east
+shaft room
+this is a large room, in the middle of which is a small shaft descending through the floor into darkness below. to the west and the north are exits from this room. constructed over the top of the shaft is a metal framework to which a heavy iron chain is attached.
+at the end of the chain is a basket.
+put torch in basket
+done.
+put screwdriver in basket
+done.
+
+turn on lamp
+the brass lantern is now on.
+go north
+smelly room
+this is a small non-descript room. however, from the direction of a small descending staircase a foul odor can be detected. to the south is a narrow tunnel.
+go down
+gas room
+this is a small room which smells strongly of coal gas. there is a short climb up some stairs and a narrow tunnel leading east.
+there is a sapphire-encrusted bracelet here.
+go east
+coal mine
+this is a non-descript part of a coal mine.
+go northeast
+coal mine
+this is a non-descript part of a coal mine.
+go southeast
+coal mine
+this is a non-descript part of a coal mine.
+go southwest
+coal mine
+this is a non-descript part of a coal mine.
+go down
+ladder top
+this is a very small room. in the corner is a rickety wooden ladder, leading downward. it might be safe to descend. there is also a staircase leading upward.
+go down
+ladder bottom
+this is a rather wide room. on one side is the bottom of a narrow wooden ladder. to the west and the south are passages leaving the room.
+go south
+dead end
+you have come to a dead end in the mine.
+there is a small pile of coal here.
+take coal
+taken.
+go north
+ladder bottom
+go up
+ladder top
+go up
+coal mine
+go north
+coal mine
+go east
+coal mine
+go south
+coal mine
+go north
+gas room
+there is a sapphire-encrusted bracelet here.
+go up
+smelly room
+go south
+shaft room
+at the end of the chain is a basket.
+the basket contains:
+  a screwdriver
+  a torch (providing light)
+put coal in basket
+done.
+lower basket
+the basket is lowered to the bottom of the shaft.
+go north
+smelly room
+go down
+gas room
+there is a sapphire-encrusted bracelet here.
+go east
+coal mine
+go northeast
+coal mine
+go southeast
+coal mine
+go southwest
+coal mine
+go down
+ladder top
+go down
+ladder bottom
+go west
+timber room
+this is a long and narrow passage, which is cluttered with broken timbers. a wide passage comes from the east and turns at the west end of the room into a very narrow passageway. from the west comes a strong draft.
+there is a broken timber here.
+drop all
+crystal skull: dropped.
+pair of candles: dropped.
+matchbook: dropped.
+clove of garlic: dropped.
+brass lantern: dropped.
+go west
+drafty room
+this is a small drafty room in which is the bottom of a long shaft. to the south is a passageway and to the east a very narrow passage. in the shaft can be seen a heavy iron chain.
+at the end of the chain is a basket.
+the basket contains:
+  a small pile of coal
+  a screwdriver
+  a torch (providing light)
+take coal
+taken.
+take screwdriver
+taken.
+take torch
+taken.
+go south
+machine room
+this is a large, cold room whose sole exit is to the north. in one corner there is a machine which is reminiscent of a clothes dryer. on its face is a switch which is labelled "start". the switch does not appear to be manipulable by any human hand (unless the fingers are about 1/16 by 1/4 inch). on the front of the machine is a large lid, which is closed.
+open lid
+the lid opens.
+put coal in machine
+done.
+close lid
+the lid closes.
+turn switch with screwdriver
+the machine comes to life (figuratively) with a dazzling display of colored lights and bizarre noises. after a few moments, the excitement abates.
+drop screwdriver
+dropped.
+open lid
+the lid opens, revealing a huge diamond.
+take diamond
+taken.
+go north
+drafty room
+at the end of the chain is a basket.
+put torch in basket
+done.
+put diamond in basket
+done.
+go east
+timber room
+there is a brass lantern (battery-powered) here.
+there is a clove of garlic here.
+there is a matchbook whose cover says "visit beautiful fcd#3" here.
+there is a pair of candles here.
+there is a crystal skull here.
+there is a broken timber here.
+take skull
+taken.
+take lamp
+taken.
+take garlic
+taken.
+go east
+ladder bottom
+go up
+ladder top
+go up
+coal mine
+go north
+coal mine
+a seedy-looking individual with a large bag just wandered through the room. on the way through, he quietly abstracted some valuables from the room and from your possession, mumbling something about "doing unto others before..."
+go east
+coal mine
+go south
+coal mine
+a "lean and hungry" gentleman just wandered through, carrying a large bag. finding nothing of value, he left disgruntled.
+go north
+gas room
+there is a sapphire-encrusted bracelet here.
+take bracelet
+taken.
+go up
+smelly room
+go south
+shaft room
+from the chain is suspended a basket.
+raise basket
+the basket is raised to the top of the shaft.
+look in basket
+the basket contains:
+  a huge diamond
+  a torch (providing light)
+take diamond
+taken.
+take torch
+taken.
+turn off lamp
+the brass lantern is now off.
+go west
+bat room
+in the corner of the room on the ceiling is a large vampire bat who is obviously deranged and holding his nose.
+there is an exquisite jade figurine here.
+take jade
+taken.
+go south
+squeaky room
+go east
+mine entrance
+go south
+slide room
+go down
+cellar
+go up
+living room
+there is a nasty knife here.
+your collection of treasures consists of:
+    a sceptre
+    a pot of gold
+    a gold coffin
+    a painting
+inventory
+you are carrying:
+  a jade figurine
+  a torch (providing light)
+  a huge diamond
+  a clove of garlic
+  a brass lantern
+put jade in case
+done.
+put diamond in case
+done.
+turn on lamp
+the brass lantern is now on.
+go down
+cellar
+go north
+the troll room
+there is a sword here.
+there is a bloody axe here.
+go east
+east-west passage
+go north
+chasm
+go northeast
+reservoir south
+you are in a long room, to the north of which was formerly a lake. however, with the water level lowered, there is merely a wide stream running through the center of the room.
+there is a path along the stream to the east or west, a steep pathway climbing southwest along the edge of a chasm, and a path leading into a canyon to the southeast.
+go north
+reservoir
+you are on what used to be a large lake, but which is now a large mud pile. there are "shores" to the north and south.
+lying half buried in the mud is an old trunk, bulging with jewels.
+take trunk
+taken.
+go north
+reservoir north
+you are in a large cavernous room, the south of which was formerly a lake. however, with the water level lowered, there is merely a wide stream running through there.
+there is a slimy stairway leaving the room to the north.
+there is a hand-held air pump here.
+take pump
+taken.
+take pump
+taken.
+go north
+atlantis room
+this is an ancient room, long under water. there is an exit to the south and a staircase leading up.
+on the shore lies poseidon's own crystal trident.
+take trident
+your load is too heavy.
+inventory
+you are carrying:
+  a hand-held air pump
+  a trunk of jewels
+  a torch (providing light)
+  a clove of garlic
+  a brass lantern (providing light)
+drop torch
+dropped.
+take trident
+taken.
+go south
+reservoir north
+go south
+reservoir
+go south
+reservoir south
+go east
+dam
+there is a wrench here.
+go east
+dam base
+you are at the base of flood control dam #3, which looms above you and to the north. the river frigid is flowing by here. along the river are the white cliffs which seem to form giant walls stretching from north to south along the shores of the river as it winds its way downstream.
+there is a folded pile of plastic here which has a small valve attached.
+inflate plastic with pump
+the boat inflates and appears seaworthy.
+a tan label is lying inside the boat.
+drop pump
+dropped.
+go inside boat
+you are now in the magic boat.
+launch
+(magic boat)
+frigid river, in the magic boat
+you are on the frigid river in the vicinity of the dam. the river flows quietly here. there is a landing on the west shore.
+the magic boat contains:
+  a tan label
+wait
+time passes...
+the flow of the river carries you downstream.
+frigid river, in the magic boat
+the river turns a corner here making it impossible to see the dam. the white cliffs loom on the east bank and large rocks prevent landing on the west.
+the magic boat contains:
+  a tan label
+wait
+time passes...
+wait
+time passes...
+the flow of the river carries you downstream.
+frigid river, in the magic boat
+the river is running faster here and the sound ahead appears to be that of rushing water. on the east shore is a sandy beach. a small area of beach can also be seen below the cliffs on the west shore.
+there is a red buoy here (probably a warning).
+the magic boat contains:
+  a tan label
+take buoy
+taken.
+go east
+the magic boat comes to a rest on the shore.
+sandy beach, in the magic boat
+you are on a large sandy beach on the east shore of the river, which is flowing quickly by. a path runs beside the river to the south here, and a passage is partially buried in sand to the northeast.
+there is a shovel here. (outside the magic boat)
+  the magic boat contains:
+    a tan label
+leave boat
+you are on your own feet again.
+take shovel
+your load is too heavy.
+drop garlic
+dropped.
+take shovel
+your load is too heavy.
+drop buoy
+dropped.
+take shovel
+taken.
+go northeast
+sandy cave
+this is a sand-filled cave whose exit is to the southwest.
+dig
+what do you want to dig in?
+sand
+(with the shovel)
+you seem to be digging a hole here.
+dig sand
+(with the shovel)
+the hole is getting deeper, but that's about it.
+dig sand
+(with the shovel)
+you are surrounded by a wall of sand on all sides.
+dig sand
+(with the shovel)
+you can see a scarab here in the sand.
+take scarab
+taken.
+drop shovel
+dropped.
+go southwest
+sandy beach
+there is a red buoy here.
+there is a clove of garlic here.
+there is a magic boat here.
+the magic boat contains:
+  a tan label
+open buoy
+opening the red buoy reveals a large emerald.
+take emerald
+taken.
+take garlic
+taken.
+go south
+shore
+you are on the east shore of the river. the water here seems somewhat treacherous. a path travels from north to south here, the south end quickly turning around a sharp corner.
+go south
+aragain falls
+you are at the top of aragain falls, an enormous waterfall with a drop of about 450 feet. the only path here is on the north end.
+a solid rainbow spans the falls.
+cross rainbow
+end of rainbow
+turn off lamp
+the brass lantern is now off.
+go southwest
+canyon bottom
+go up
+rocky ledge
+go up
+canyon view
+go northwest
+clearing
+go west
+behind house
+enter house
+kitchen
+a bottle is sitting on the table.
+the glass bottle contains:
+  a quantity of water
+there is a brown sack here.
+the brown sack contains:
+  a lunch
+go west
+living room
+there is a nasty knife here.
+your collection of treasures consists of:
+    a huge diamond
+    a jade figurine
+    a sceptre
+    a pot of gold
+    a gold coffin
+    a painting
+inventory
+you are carrying:
+  a clove of garlic
+  a large emerald
+  a beautiful jeweled scarab
+  a crystal trident
+  a trunk of jewels
+  a brass lantern
+put emerald in case
+done.
+put scarab in case
+done.
+put trident in case
+done.
+put jewels in case
+done.
+go east
+kitchen
+a bottle is sitting on the table.
+the glass bottle contains:
+  a quantity of water
+there is a brown sack here.
+the brown sack contains:
+  a lunch
+go east
+behind house
+go north
+north of house
+you are facing the north side of a white house. there is no door here, and all the windows are boarded up. to the north a narrow path winds through the trees.
+go north
+forest path
+this is a path winding through a dimly lit forest. the path heads north-south here. one particularly large tree with some low branches stands at the edge of the path.
+climb tree
+up a tree
+you are about 10 feet above the ground nestled among some large branches. the nearest branch above you is above your reach.
+beside you on the branch is a small bird's nest.
+in the bird's nest is a large egg encrusted with precious jewels, apparently scavenged by a childless songbird. the egg is covered with fine gold inlay, and ornamented in lapis lazuli and mother-of-pearl. unlike most eggs, this one is hinged and closed with a delicate looking clasp. the egg appears extremely fragile.
+take egg
+taken.
+climb down
+(down the tree)
+forest path
+you hear in the distance the chirping of a song bird.
+go south
+north of house
+go east
+behind house
+enter house
+kitchen
+a bottle is sitting on the table.
+the glass bottle contains:
+  a quantity of water
+there is a brown sack here.
+the brown sack contains:
+  a lunch
+go west
+living room
+there is a nasty knife here.
+your collection of treasures consists of:
+    a trunk of jewels
+    a crystal trident
+    a beautiful jeweled scarab
+    a large emerald
+    a huge diamond
+    a jade figurine
+    a sceptre
+    a pot of gold
+    a gold coffin
+    a painting
+turn on lamp
+the brass lantern is now on.
+go down
+cellar
+go north
+the troll room
+there is a sword here.
+there is a bloody axe here.
+go west
+maze
+this is part of a maze of twisty little passages, all alike.
+go south
+maze
+this is part of a maze of twisty little passages, all alike.
+go east
+maze
+this is part of a maze of twisty little passages, all alike.
+go up
+maze
+this is part of a maze of twisty little passages, all alike. a skeleton, probably the remains of a luckless adventurer, lies here.
+beside the skeleton is a rusty knife.
+the deceased adventurer's useless lantern is here.
+there is a skeleton key here.
+an old leather bag, bulging with coins, is here.
+take coins
+taken.
+take key
+taken.
+go southwest
+maze
+this is part of a maze of twisty little passages, all alike.
+the lamp appears a bit dimmer.
+go east
+maze
+this is part of a maze of twisty little passages, all alike.
+go south
+maze
+this is part of a maze of twisty little passages, all alike.
+go southeast
+cyclops room
+this room has an exit on the northwest, and a staircase leading up.
+a cyclops, who looks prepared to eat horses (much less mere adventurers), blocks the staircase. from his state of health, and the bloodstains on the walls, you gather that he is not very friendly, though he likes people.
+ulysses
+the cyclops, hearing the name of his father's deadly nemesis, flees the room by knocking down the wall on the east of the room.
+treasure room
+this is a large room, whose east wall is solid granite. a number of discarded bags, which crumble at your touch, are scattered about on the floor. there is an exit down a staircase.
+there is a suspicious-looking individual, holding a large bag, leaning against one wall. he is armed with a deadly stiletto.
+there is a silver chalice, intricately engraved, here.
+the thief attacks, and you fall back desperately.
+give egg to thief
+the thief is taken aback by your unexpected generosity, but accepts the jewel-encrusted egg and stops to admire its beauty.
+go down
+cyclops room
+go east
+strange passage
+this is a long passage. to the west is one entrance. on the east there is an old wooden door, with a large opening in it (about cyclops sized).
+go east
+living room
+there is a nasty knife here.
+your collection of treasures consists of:
+    a trunk of jewels
+    a crystal trident
+    a beautiful jeweled scarab
+    a large emerald
+    a huge diamond
+    a jade figurine
+    a sceptre
+    a pot of gold
+    a gold coffin
+    a painting
+put coins in case
+done.
+take knife
+taken.
+go west
+strange passage
+go west
+cyclops room
+go up
+you hear a scream of anguish as you violate the robber's hideaway. using passages unknown to you, he rushes to its defense.
+the thief gestures mysteriously, and the treasures in the room suddenly vanish.
+treasure room
+there is a suspicious-looking individual, holding a large bag, leaning against one wall. he is armed with a deadly stiletto.
+there is a silver chalice, intricately engraved, here.
+you dodge as the thief comes in low.
+kill thief with knife
+the thief is disarmed by a subtle feint past his guard.
+the robber, somewhat surprised at this turn of events, nimbly retrieves his stiletto.
+kill thief with knife
+you dodge as the thief comes in low.
+kill thief with knife
+it's curtains for the thief as your nasty knife removes his head.
+almost as soon as the thief breathes his last breath, a cloud of sinister black fog envelops him, and when the fog lifts, the carcass has disappeared.
+as the thief dies, the power of his magic decreases, and his treasures reappear:
+  a stiletto
+  a jewel-encrusted egg, with a golden clockwork canary
+  a torch
+  a crystal skull
+  a sapphire-encrusted bracelet
+the chalice is now safe to take.
+take all
+stiletto: taken.
+jewel-encrusted egg: taken.
+torch: taken.
+crystal skull: taken.
+sapphire-encrusted bracelet: taken.
+chalice: your load is too heavy.
+drop stiletto
+dropped.
+take chalice
+you're holding too many things already!
+drop torch
+dropped.
+take chalice
+taken.
+go down
+cyclops room
+go northwest
+maze
+this is part of a maze of twisty little passages, all alike.
+go south
+maze
+this is part of a maze of twisty little passages, all alike.
+go west
+maze
+this is part of a maze of twisty little passages, all alike.
+go up
+maze
+this is part of a maze of twisty little passages, all alike.
+go down
+you won't be able to get back up to the tunnel you are going through when it gets to the next room.
+maze
+this is part of a maze of twisty little passages, all alike.
+go northeast
+grating room
+you are in a small room near the maze. there are twisty passages in the immediate vicinity.
+above you is a grating locked with a skull-and-crossbones lock.
+unlock grate
+(with the skeleton key)
+the grate is unlocked.
+open grate
+the grating opens to reveal trees above you.
+a pile of leaves falls onto your head and to the ground.
+go up
+clearing
+you are in a clearing, with a forest surrounding you on all sides. a path leads south.
+there is an open grating, descending into darkness.
+go south
+forest path
+you hear in the distance the chirping of a song bird.
+climb tree
+up a tree
+beside you on the branch is a small bird's nest.
+you hear in the distance the chirping of a song bird.
+wind up canary
+the canary chirps, slightly off-key, an aria from a forgotten opera. from out of the greenery flies a lovely songbird. it perches on a limb just over your head and opens its beak to sing. as it does so a beautiful brass bauble drops from its mouth, bounces off the top of your head, and lands glimmering in the grass. as the canary winds down, the songbird flies away.
+go down
+forest path
+there is a beautiful brass bauble here.
+take bauble
+you're holding too many things already!
+drop knife
+dropped.
+you hear in the distance the chirping of a song bird.
+take bauble
+taken.
+go south
+north of house
+go east
+behind house
+enter house
+kitchen
+a bottle is sitting on the table.
+the glass bottle contains:
+  a quantity of water
+there is a brown sack here.
+the brown sack contains:
+  a lunch
+go west
+living room
+your collection of treasures consists of:
+  a leather bag of coins
+  a trunk of jewels
+  a crystal trident
+  a beautiful jeweled scarab
+  a large emerald
+  a huge diamond
+  a jade figurine
+  a sceptre
+  a pot of gold
+  a gold coffin
+  a painting
+put bauble in case
+done.
+put chalice in case
+done.
+take canary from egg
+taken.
+put canary in case
+done.
+put egg in case
+done.
+put bracelet in case
+done.
+put skull in case
+done.
+go down
+cellar
+go north
+the troll room
+there is a sword here.
+there is a bloody axe here.
+go east
+east-west passage
+go east
+round room
+go east
+loud room
+this is a large room with a ceiling which cannot be detected from the ground. there is a narrow passage from east to west and a stone stairway leading upward. the room is deafeningly loud with an undetermined rushing sound. the sound seems to reverberate from all of the walls, making it difficult even to think.
+on the ground is a large platinum bar.
+echo
+the acoustics of the room change subtly.
+loud room
+on the ground is a large platinum bar.
+take bar
+taken.
+go west
+round room
+go west
+east-west passage
+go west
+the troll room
+there is a sword here.
+there is a bloody axe here.
+go south
+cellar
+go up
+give the silver coin to the drunk
+"thanks, chum."  the drunk reaches into his tattered cloak.  "here, take this
+magic scroll.  i used to be a magic user, but i couldn't make the grade.
+hope you'll have more luck than me."  he hands you the scroll.
+read it
+the scroll reads "bozbar spell:  cause an animal to sprout wings."
+"another pint of ale!" cries the drunk, flipping the silver coin to the
+bartender.
+gnusto the bozbar spell
+your spell book begins to glow softly.  slowly, ornately, the words of the 
+bozbar spell are inscribed, glowing even more brightly then the book itself.
+the book's brightness fades, but the spell remains!  however, the scroll
+on which it was written vanishes as the last word is copied.
+drunk, where is the warlock?
+"he lives in the castle beyond the wide chasm to the south.  at least, that's
+what i've heard."  he looks about furtively, a great fear blazing in his
+eyes.
+open the door
+being swinging doors, they swing open and then immediately close again.
+east
+road outside tavern
+there is a horse here, munching on a pile of oats.
+get on the horse
+you are now on the horse, holding the reins.
+look
+road outside tavern, on the horse
+the road winds here, leading northeast and southeast.  a seedy tavern lies to
+the west.  there is a pile of oats here.
+take pile of oats
+you can't reach them from the horse!
+steer horse south
+using the reins, you bring the horse about to face the south.
+kick the horse
+the horse is too well trained to gallop off the road into the thick woods.  
+it rears back on its hind legs, whinnying in confusion.
+steer horse southeast
+using the reins, you bring the horse about to face the southeast.
+kick hose
+you can't see any hose here.
+kick hors
+i don't know the word "hors."
+kick horse
+the horse begins trotting along the road at a brisk trot.  a new section of
+road comes into view...
+crest of hill, on the horse.
+the road crosses the top of a ridge here, sloping downwards to the south and 
+the northwest.
+steer horse south
+the horse turns southward, still traveling at a brisk trot.  a new section
+of road comes into view...
+edge of chasm, on the horse.
+the road ends suddenly at a wide chasm.  the road leads upward to the north, 
+and you can see it continuing on the southern side of the chasm.  lying in a 
+tight coil at the edge of the chasm is a hissing snake.
+horse, whoa
+the horse pulls to a stop, scant feet from the edge of the chasm!
+read the spell book
+my spell book
+gnusto spell:  write a magic spell into your spell book
+frotz spell:  cause an object to give off light
+urbzig spell:  turn a dangerous object into a harmless one
+lobal spell:  sharpen hearing
+bozbar spell:  cause an animal to sprout wings
+spells
+the gnusto spell is yours forever.  other than that, you
+have no spells memorized.
+learn bozbar and urbzig
+bozbar spell:  using your best study habits, you commit the bozbar
+spell to memory.
+urbzig spell:  using your best study habits, you commit the urbzig spell
+to memory.
+"hsssss!!!"  the snake coils tighter, as though preparing to strike the
+horse.
+cast the urbzig spell on the snake
+the snake is replaced by a clump of daffodils.
+bozbar the horse
+a pair of handsome brown wings suddenly appears on the horse's powerful
+shoulders.  the horse turns in a complete circle, a look of puzzlement on
+its face.
+kick the horse
+the horse gallops toward the chasm and over the edge!  it begins
+plummeting into the chasm, toward sharp rocks below!  then, slowly at first
+but with increasing sureness, the horse begins beating its powerful
+wings.  you rise majestically through the air, sailing gracefully 
+across the chasm.  the horse lands gently of the far side, resuming
+its brisk trot...
+road to castle, on the horse.
+you are at the southern edge of a wide chasm.  a road leads southward 
+toward a castle of black stone.
+wait
+time passes...
+the horse continues trotting briskly along the road...
+edge of moat, on the horse.
+the black castle looms on the other side of the moat.  the drawbridge is
+closed, and the moat looks unswimmable.
+a green plant is growing near the edge of the moat.  
+a red plant is growing near the edge of the moat.
+the horse, sensing the evil ahead, halts at the moat and snorts wildly.
+get off the horse
+you are now on your own feet.
+i
+you are carrying:
+  a spell book
+  a pouch
+examine the pouch
+the pouch has some writing on it and is currently closed.
+open it
+opening the pouch reveals a quantity of magic dust.
+read it
+you can't read a quantity of magic dust!
+read the pouch
+the pouch reads "magic dust:  world's most potent fertilizer."
+examine plant
+which plant do you mean, the green plant or the red plant?
+green
+it looks like a barnibus viltus, a simple and harmless vine.  
+it appears to be newly sprouted.
+sprinkle magic dust on the green plant
+the green plant begins growing at a tremendous rate, shooting long
+grasping tendrils across the moat, and growing right up the side of
+the castle. the plant has now become a living bridge, which you can
+climb up to cross the moat.
+examine the red plant
+it looks like a speciman of flombus digestus, the dangerous man-eating
+plant.  fortunately, this is a very tiny specimen.
+sprinkle magic dust on the red plant
+the red plant begins growing at a tremendous rate.  it sprouts giant red
+pods, large enough to engulf you!
+(they do so.)
+                 *** you have died ***
+you awake to see haffibar, the guild physician, bending over you.  "you'd
+better be more careful," she admonishes.  "this is the second time you've
+gotten killed.  i overheard some members of the circle say that if
+you die once more, they won't waste another magic spell reviving you."  you
+slip back into unconsciousness again, and when you awake you find yourself
+outdoors...
+beginning of road
+southwest
+road outside tavern
+there is a pile of oats here.
+a drunk is sleeping at the edge of the road.
+read the sign
+the sign has two arrows:  one pointing north marked "to
+greener pastures," and one pointing south marked "to gornforb's grocery."
+go north
+road near bridge
+a small wooden bridge to the west spans the brook and leads (you can see)
+to sunny, open pastures, where birds sing and swoop playfully.  a wide road
+leading south runs parallel with the brook and disappears into the dark
+shadows.  an impenetrable forest lies to the east, and north of here is
+a marsh.
+on the far side of the bridge is a troll, either dead or sleeping.
+guarding the bridge here is a buck-toothed cyclops wielding a mace.  he 
+scowls as you approach.
+west
+the cyclops roars at you, swings his mace, and tries to bite you.  you jump
+out of the way.
+inventory
+you are carrying:
+  your spell book
+  a pouch containing several gold nuggets
+the cyclops spits out a horrible assortment of syllables that you barely
+decipher as a demand for all your valuables.
+read the spell book
+my spell book
+gnusto spell:  write a magic spell into your spell book
+frotz spell:  cause an object to give off light
+urbzig spell:  turn a dangerous object into a harmless one
+the cyclops again utters some threatening sounds, this time louder.
+spells
+the gnusto spell is yours forever.  other than that, you have the
+urbzig spell committed to memory once and the frotz spell committed to 
+memory once.
+the cyclops raises his mace above his head and leans back, preparing to leap
+at you and strike you full force with the mace!
+cast the urbzig spell on the cyclops
+the cyclops is replaced by a moth, which flutters away.  the mace falls
+to the ground.
+take the maxe
+i don't know the word "maxe".
+oops mace
+the mace is much too heavy for you to lift, let along carry.
+west
+bridge
+your're standing on a small wooden bridge spanning a babbling brook.  you can
+see sunny, open pastures west of here, where birds sing and swoop playfully.
+as you cross the bridge, the boards creak loudly.
+the troll wakes up and pulls a long nasty knife out of his shabby clothes.
+he points the knife in your direction as he hisses, "gold! give me your
+gold!"
+memorize urbzig
+urbizg spell:  using your best study habits, you commit the urbzig spell
+to memory.
+the troll jabs the knife in your direction, his blood-red eyes dripping
+with greed.  "give me your gold, and maybe you'll live!" he hisses.
+urbzig troll
+you speak the words of the spell perfectly, but nothing happens!
+the troll seems surprised.  "your magic fails you, eh? ha!" he adjusts his
+grip on the long nasty knife and walks slowly toward you, looking for the most
+vulnerable part of you throat.
+go east then south
+road near bridge
+there is a mace here.
+road near brook
+a sign is leaning against a pile of pebbles and small stones.
+west
+just as you're about to step into the babbling brook, you see giant
+electric eels light up in anticipation of electrocuting and devouring you.
+you step back away from the brook.
+south
+road outside gornforb's
+the wide, bumpy road continues north and south here.  nestled among
+the thick forest foliage is a stone building with a closed black door and
+no windows.  above the door is a sign.
+read the sign
+"gornforb's grocery
+open every day
+(proprietor may be napping-knock several times)"
+knock on the door
+you knock on the door.
+again
+you knock again on the door.
+again
+you knock again on the door.
+suddenly the door opens, and you hear a voice inside say "come in, come in!"
+go into the hut
+as you step into the hut, the door shuts quickly behind you, leaving you in
+total darkness.  you can't see a thing.
+darkness
+a voice in the dark mumbles something about not being able to find a match.
+frotz the spell book
+there is an almost blinding flash of light as the spell book begins to glow!
+it slowly fades to a less painful level, but the spell book is now quite 
+usable as a light source.
+gornforb's grocery
+you're standing in a nearly empty store.  a closed black door leads west. 
+several empty glass jars, an empty bag, and a pencil are all you see on the
+dusty shelves.
+gornforb, the storekeeper, continues to look in all the empty jars.  "i 
+think there's a match in here somewhere."
+take the empty bag
+"no, no," say gornforb.  "no bag unless you buy something."  gornforb looks
+about and picks up the pencil.  "here.  this will cost you 100 gold 
+nuggets."
+offer 1 gold nugget
+"2 gold nuggets, and not a zorkmid cheaper!"  says gornforb sternly.
+buy the pencil
+gornforb takes 2 gold nuggets from you, hands you the pencil, and opens
+the door.  "thank you, come again, come again."
+gornforb, give me the paper bag
+"help yourself, take it if you want it, thank you, come again, come again."
+he stands by the door, impatiently waiting for you to leave.
+take the bag
+taken.
+"good day, good day," says gornforb impatiently.
+leave the store
+as you step outside, the black door slams shut behind you.
+road outside gornforb's
+north
+road near brook
+a sign is leaning against a pile of pebbles and small stones.
+take pebbles then put the pebbles in the bag
+taken.
+okay, the pebbles are now in the bag.
+write "gold" on the bag
+okay, the bag now has "gold" written on it.
+n.w.
+road near bridge
+there is a mace here.
+bridge 
+as you cross the bridge, the boards creak loudly.  the troll hears you
+coming and quickly puts his long nasty knife to your throat.  "this time
+you shall not live!"
+show the bag to the troll
+the troll's blood-red eyes bulge disgustingly when he sees the word
+"gold" on the bag.  he drops his knife and reaches for the bag.
+put the bag into the brook
+"gold!" shrieks the troll with pleasure, as he dives into the brook after
+the bag.  suddenly you hear another shriek, this time of agony; some 
+thrashing in the water below you; and then all is quiet, save for the singing
+of the birds to the west.
+go west
+greener pastures, near the bridge
+this is the edge of one of the most idyllic spots in the land.  rare and
+beautiful birds quickly encircle you, sensing no maliciousness in your
+heart.
+listen to shout
+you can hear your mother calling you, and your brothers, sisters
+and father to lunch.
+go east
+you'll have to stand up first.
+stand up
+reluctantly, you get to your feet.
+a platypus crawls down out of the beech tree and waddles hurriedly
+north.
+follow the platypus
+pond shore
+you're standing by the southern side of berube pond.  you can ascend
+sunny hill to the south, go to old mr. langosy's raspberry patch to
+the west or follow a path to your family's farmhouse to the east.
+  the platypus crawls into a semi-hidden pit and disappears.
+look in pit
+it's as dark as a new-moon night in the pit.  you can see only a few
+feet down, but not the bottom of the pit.
+inventory
+you are empty-handed.
+jump into the pit
+you jump feet-first into the pit, and fall a few feet...
+...and fall some more...
+...and some more...
+...and some more...
+and finally land with a slight "thud."
+pit bottom
+you're standing in a small round room.  a long dark passage above
+you disappears into black nothingness.  in a corner of the room is
+a square glass-topped table, and in the south wall is a tiny door,
+not more than 12 inches tall.
+open the door
+the door is locked.
+push the door
+the door won't budge.
+look at the table
+the table is about 3 feet tall, with spindly wooden legs and a clear
+glass top.  on the table is a white mushroom with a label attached.
+read the label
+the label says "eat me."
+smell the mushroom
+it smells just like a white mushroom.
+eat the mushroom
+[taking the white mushroom first]
+despite warnings from ... from someone (your sister? your mother?) 
+about eating unfamiliar fungi, you take a tentative bite from the
+mushroom.  the you notice that the table is growing larger and 
+larger still.  the white mushroom you're carrying gets heavier
+and heavier, and you notice that it too is growing.  the door in the
+south wall grows in height, and the room itself seems to expand in
+every direction.  suddenly, everything stops growing (or perhaps
+you stop shrinking).  you notice that the door (which is now 
+taller than you) has a keyhole.
+look through the kethole
+[i don't know the word "kethole."]
+oops keyhole
+through the keyhole, you can see a lovely garden on the other side
+of the door. platypuses cavort happily on the lawns and in the
+pools.
+knock on the door
+still peering through the keyhole, you see a smiling platypus
+wearing a party hat waddle over to the door.
+"hello," it says cheerfully.
+platypus, open the door
+"the key is on the table."  the platypus waddles away from the door.
+look at the table
+the table looms over you like everest over hillary.  way overhead, 
+you see a key through the glass, which you're sure wasn't there
+before.
+take the key
+the key is far out of reach.
+climb the table
+don't let the sir hillary analogy get to your head.  the legs of
+the table are too smooth and slippery.
+look around
+pit bottom
+you're standing in a small round room.  a long dark passage above
+you disappears into black nothingness.  in a corner of the room is
+a square glass-topped table, which looms over you like goliath 
+over david.  way overhead, you see a key through the glass.  in 
+the south wall is a closed door.  in the shadows of another corner 
+is a black mushroom.
+take the black mushroom then eat it
+taken.
+you take a timorous taste of the black mushroom.  then you notice 
+that the table is growing smaller, and smaller still.  the mushrooms
+you're carrying get lighter and lighter, and you notice that they
+too are shrinking.  the door in the south wall gets tinier and 
+tinier, and the room itself seems to contract in every direction.  
+suddenly, everything stops shrinking (or perhaps you stop growing).
+take the key
+taken.
+eat the mushroom
+[which mushroom do you mean, the white mushroom or the black 
+mushroom?]
+white
+you take a confident chomp from the white mushroom.  as expected,
+the table grows larger, the mushrooms get heavier, the door in the
+south wall grows, and the room itself expands in every direction.
+eventually, everything stops growing (or perhaps you stop 
+shrinking).
+unlock the door with the key then open the door
+okay, the door is now unlocked.
+you swing open the door.
+go in
+garden
